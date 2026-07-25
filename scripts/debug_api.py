@@ -82,16 +82,42 @@ def main():
         resp = requests.get(search_url, headers=HEADERS, timeout=20)
         print(f"[{resp.status_code}] search page fetch")
         html = resp.text
+        print(f"HTML length: {len(html)} chars")
+
         # Look for any /api/ style paths referenced in the page or its scripts
         matches = sorted(set(re.findall(r"[\"'](/api/[a-zA-Z0-9/_\-]*)[\"']", html)))
         print(f"Found {len(matches)} distinct /api/ path(s) referenced in HTML:")
         for m in matches[:40]:
             print("   ", m)
+
         # Also look for fully-qualified api hostnames
         host_matches = sorted(set(re.findall(r"https?://[a-zA-Z0-9_.\-]*api[a-zA-Z0-9_.\-]*\.[a-zA-Z]{2,}", html)))
         print(f"Found {len(host_matches)} api-ish hostname(s) referenced in HTML:")
         for h in host_matches[:40]:
             print("   ", h)
+
+        # Does the raw HTML already contain listing data server-side rendered?
+        for needle in ("hash_id", "__NEXT_DATA__", "__NUXT__", "price_czk", "estates", "window.__INITIAL_STATE__"):
+            count = html.count(needle)
+            print(f"Occurrences of '{needle}': {count}")
+
+        next_data_match = re.search(
+            r'<script[^>]+id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.DOTALL
+        )
+        if next_data_match:
+            blob = next_data_match.group(1)
+            print(f"__NEXT_DATA__ blob length: {len(blob)} chars")
+            print("First 500 chars of __NEXT_DATA__:")
+            print(blob[:500])
+        else:
+            print("No __NEXT_DATA__ script tag found.")
+
+        # List any script src references so we know where the JS bundles live
+        script_srcs = sorted(set(re.findall(r'<script[^>]+src="([^"]+)"', html)))
+        print(f"Found {len(script_srcs)} <script src> reference(s), first 20:")
+        for s in script_srcs[:20]:
+            print("   ", s)
+
     except Exception as exc:  # noqa: BLE001
         print(f"[ERR] search page fetch -> {exc}")
 
