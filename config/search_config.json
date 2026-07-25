@@ -1,5 +1,5 @@
 {
-  "search_url": "https://www.sreality.cz/hledani/pronajem/byty/praha?velikost=4%2B1%2C4%2Bkk%2C5%2B1%2C5%2Bkk&cena-do=42000",
+  "search_url": "https://www.sreality.cz/hledani/pronajem/byty/praha?velikost=4%2B1%2C5%2B1%2C5%2Bkk&cena-do=40000",
   "request_delay_seconds": 1.0,
   "request_timeout_seconds": 20,
   "discord_role_id": "1530676086072017106"
