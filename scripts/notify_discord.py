@@ -75,7 +75,7 @@ def build_message_chunks(flats: list, role_id: str = None) -> list:
 
     entries = [
         f"{flat['location']}, {flat['disposition']}\n"
-        f"{flat['priceCzk']}\n"
+        f"{flat['price']}\n"
         f"{flat['url']}"
         for flat in flats
     ]
