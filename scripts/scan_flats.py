@@ -2,10 +2,14 @@
 """
 Flat rent monitor for sreality.cz
 
-Reads a human-facing sreality.cz search URL from config/search_config.json,
-translates it into calls against sreality's public JSON API
-(https://www.sreality.cz/api/cs/v2/estates), and diffs the results against
-a local "database" file to figure out what's new and what's disappeared.
+Reads a human-facing sreality.cz search URL from config/search_config.json
+and fetches it directly (sreality applies all the filters -- room count,
+price, city -- server-side, exactly like a browser would). Each search
+results page embeds its listing data as JSON in a `__NEXT_DATA__` script
+tag (React Query's dehydrated cache); we parse that instead of trying to
+call sreality's internal REST API directly, since that API isn't meant for
+external use and has changed shape/path before. Pagination uses the same
+"&strana=N" parameter the site's own pagination links use.
 
 Outputs:
   data/dorm-database.json   -> current snapshot of everything matching the search
@@ -14,10 +18,10 @@ Outputs:
 """
 
 import json
+import math
 import re
 import sys
 import time
-import unicodedata
 import urllib.parse
 from pathlib import Path
 
@@ -31,52 +35,19 @@ CONFIG_PATH = ROOT / "config" / "search_config.json"
 DATABASE_PATH = ROOT / "data" / "dorm-database.json"
 CURRENTLY_FOUND_PATH = ROOT / "data" / "currently-found.json"
 
-API_BASE = "https://www.sreality.cz/api/cs/v2/estates"
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
     ),
-    "Accept": "application/json, text/plain, */*",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "cs,en;q=0.8",
-    "Referer": "https://www.sreality.cz/hledani/pronajem/byty",
-    "X-Requested-With": "XMLHttpRequest",
 }
 
-# sreality path segments -> category_main_cb
-CATEGORY_MAIN = {
-    "byty": 1,
-    "domy": 2,
-    "pozemky": 3,
-    "komercni": 4,
-    "ostatni": 5,
-}
-
-# sreality path segments -> category_type_cb
-CATEGORY_TYPE = {
-    "prodej": 1,
-    "pronajem": 2,
-    "drazby": 3,
-}
-
-# "velikost" values (as used in the search URL) -> category_sub_cb, for byty
-DISPOSITION_TO_SUBCB = {
-    "1+kk": 2, "1+1": 3,
-    "2+kk": 4, "2+1": 5,
-    "3+kk": 6, "3+1": 7,
-    "4+kk": 8, "4+1": 9,
-    "5+kk": 10, "5+1": 11,
-    "6+": 12,
-    "atypical": 16,
-}
-SUBCB_TO_DISPOSITION = {v: k for k, v in DISPOSITION_TO_SUBCB.items()}
-
-DISPOSITION_REGEX = re.compile(r"\b([1-6]\s?\+\s?(?:kk|[1-9]))\b", re.IGNORECASE)
-
-
-def strip_diacritics(text: str) -> str:
-    normalized = unicodedata.normalize("NFKD", text)
-    return "".join(c for c in normalized if not unicodedata.combining(c))
+NEXT_DATA_RE = re.compile(
+    r'<script[^>]+id="__NEXT_DATA__"[^>]*>(.*?)</script>', re.DOTALL
+)
+DETAIL_HREF_RE = re.compile(r'href="(/detail/[^"]+/(\d+))"')
 
 
 def load_config() -> dict:
@@ -84,89 +55,92 @@ def load_config() -> dict:
         return json.load(f)
 
 
-def parse_search_url(search_url: str) -> dict:
-    """Turn a sreality.cz/hledani/... URL into API query parameters + a
-    locality keyword used for client-side filtering."""
-    parsed = urllib.parse.urlparse(search_url)
-    path_parts = [p for p in parsed.path.split("/") if p]
-    # Expected shape: hledani / <prodej|pronajem|drazby> / <byty|domy|...> / <city-slug>
-    if len(path_parts) < 3 or path_parts[0] != "hledani":
-        raise ValueError(f"Unexpected sreality search URL shape: {search_url}")
-
-    type_slug = path_parts[1]
-    main_slug = path_parts[2]
-    city_slug = path_parts[3] if len(path_parts) > 3 else None
-
-    if type_slug not in CATEGORY_TYPE:
-        raise ValueError(f"Unknown listing type '{type_slug}' in URL")
-    if main_slug not in CATEGORY_MAIN:
-        raise ValueError(f"Unknown category '{main_slug}' in URL")
-
+def add_or_replace_query_param(url: str, key: str, value) -> str:
+    parsed = urllib.parse.urlparse(url)
     query = urllib.parse.parse_qs(parsed.query)
-
-    sub_cb_ids = []
-    requested_dispositions = set()
-    if "velikost" in query:
-        raw_sizes = query["velikost"][0].split(",")
-        for size in raw_sizes:
-            size = size.strip()
-            requested_dispositions.add(size.lower())
-            code = DISPOSITION_TO_SUBCB.get(size)
-            if code:
-                sub_cb_ids.append(code)
-            else:
-                print(f"WARNING: unrecognized velikost value '{size}', skipping filter for it")
-
-    max_price = None
-    if "cena-do" in query:
-        try:
-            max_price = int(query["cena-do"][0])
-        except ValueError:
-            print(f"WARNING: could not parse cena-do value '{query['cena-do'][0]}'")
-
-    return {
-        "category_type_cb": CATEGORY_TYPE[type_slug],
-        "category_main_cb": CATEGORY_MAIN[main_slug],
-        "category_sub_cb": sub_cb_ids,
-        "requested_dispositions": requested_dispositions,
-        "max_price": max_price,
-        "city_keyword": strip_diacritics(city_slug).lower() if city_slug else None,
-    }
+    query[key] = [str(value)]
+    new_query = urllib.parse.urlencode(query, doseq=True)
+    return urllib.parse.urlunparse(parsed._replace(query=new_query))
 
 
-def fetch_all_estates(params: dict, delay: float, timeout: float) -> list:
-    """Paginate through the sreality API and return the raw estate items."""
-    query = {
-        "category_main_cb": params["category_main_cb"],
-        "category_type_cb": params["category_type_cb"],
-        "per_page": 60,
-        "page": 1,
-    }
-    if params["category_sub_cb"]:
-        # sreality's API expects sub-category filters as a single
-        # pipe-separated value (e.g. "8|9|10|11"), NOT repeated query keys.
-        query["category_sub_cb"] = "|".join(str(c) for c in params["category_sub_cb"])
+def fetch_page(url: str, timeout: float):
+    resp = requests.get(url, headers=HEADERS, timeout=timeout)
+    resp.raise_for_status()
+    html = resp.text
 
+    match = NEXT_DATA_RE.search(html)
+    if not match:
+        raise RuntimeError(f"Could not find __NEXT_DATA__ on page: {url}")
+
+    try:
+        next_data = json.loads(match.group(1))
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"Could not parse __NEXT_DATA__ JSON on page {url}: {exc}") from exc
+
+    # id -> full detail URL, built straight from what the page actually rendered
+    id_to_url = {}
+    for href, listing_id in DETAIL_HREF_RE.findall(html):
+        id_to_url[listing_id] = "https://www.sreality.cz" + href
+
+    return next_data, id_to_url
+
+
+def find_estates_search_query(next_data: dict):
+    """Walk the parsed __NEXT_DATA__ looking for the react-query cache entry
+    whose queryKey starts with "estatesSearch"."""
+    found = []
+
+    def walk(node):
+        if isinstance(node, dict):
+            key = node.get("queryKey")
+            if isinstance(key, list) and key and key[0] == "estatesSearch":
+                found.append(node)
+            for v in node.values():
+                walk(v)
+        elif isinstance(node, list):
+            for v in node:
+                walk(v)
+
+    walk(next_data)
+    return found[0] if found else None
+
+
+def fetch_all_estates(search_url: str, delay: float, timeout: float) -> list:
+    """Fetch every page of results for the given sreality search URL and
+    return a list of (raw_result_item, detail_url) tuples."""
     all_items = []
+
     page = 1
     total = None
+    limit = None
 
     while True:
-        query["page"] = page
-        resp = requests.get(API_BASE, params=query, headers=HEADERS, timeout=timeout)
-        if not resp.ok:
-            print(f"Request failed: {resp.status_code} {resp.url}")
-            print(f"Response body (first 500 chars): {resp.text[:500]}")
-        resp.raise_for_status()
-        payload = resp.json()
+        page_url = search_url if page == 1 else add_or_replace_query_param(search_url, "strana", page)
+        next_data, id_to_url = fetch_page(page_url, timeout=timeout)
 
-        items = payload.get("_embedded", {}).get("estates", [])
-        all_items.extend(items)
+        query = find_estates_search_query(next_data)
+        if query is None:
+            raise RuntimeError(f"No estatesSearch data found on page {page} ({page_url})")
+
+        data = query.get("state", {}).get("data") or {}
+        results = data.get("results", [])
+        pagination = data.get("pagination", {})
 
         if total is None:
-            total = payload.get("result_size", len(items))
+            total = pagination.get("total", len(results))
+            limit = pagination.get("limit", len(results) or 1)
+            print(f"Total matching listings reported by site: {total} (page size {limit})")
 
-        if not items or len(all_items) >= total:
+        for item in results:
+            listing_id = str(item.get("id"))
+            detail_url = id_to_url.get(listing_id, "")
+            all_items.append((item, detail_url))
+
+        if not results:
+            break
+
+        num_pages = math.ceil(total / limit) if limit else 1
+        if page >= num_pages:
             break
 
         page += 1
@@ -175,77 +149,31 @@ def fetch_all_estates(params: dict, delay: float, timeout: float) -> list:
     return all_items
 
 
-def extract_disposition(item: dict) -> str:
-    seo = item.get("seo") or {}
-    sub_cb = seo.get("category_sub_cb")
-    if isinstance(sub_cb, int) and sub_cb in SUBCB_TO_DISPOSITION:
-        return SUBCB_TO_DISPOSITION[sub_cb]
-
-    name = item.get("name", "")
-    match = DISPOSITION_REGEX.search(name)
-    if match:
-        return match.group(1).replace(" ", "")
-
-    return "unknown"
-
-
-def build_detail_url(item: dict) -> str:
-    seo = item.get("seo") or {}
-    type_slug = seo.get("category_type_cb")
-    main_slug = seo.get("category_main_cb")
-    locality_slug = seo.get("locality")
-    hash_id = item.get("hash_id")
-
-    if type_slug and main_slug and locality_slug and hash_id:
-        return f"https://www.sreality.cz/detail/{type_slug}/{main_slug}/{locality_slug}/{hash_id}"
-
-    # Fallback: sreality also resolves bare hash_id search links reasonably
-    if hash_id:
-        return f"https://www.sreality.cz/detail/pronajem/byt/-/{hash_id}"
-    return ""
-
-
-def extract_price(item: dict):
-    price_block = item.get("price_czk") or {}
-    value = price_block.get("value_raw")
-    if value is None:
-        value = item.get("price")
-    return value
-
-
-def normalize_listings(raw_items: list, city_keyword: str, max_price, requested_dispositions=None) -> dict:
-    """Filter raw API items down to the ones matching city + price +
-    disposition, and reshape them into the compact record format we store.
-
-    Disposition is re-checked here (not just via the API's category_sub_cb
-    param) so results stay correct even if that param is ever ignored or
-    mis-parsed by sreality's backend.
-    """
+def normalize_listings(raw_items: list) -> dict:
+    """Reshape raw (item, url) pairs into the compact record format we
+    store. sreality already applied our price/room/city filters
+    server-side, so no extra client-side filtering is needed here."""
     results = {}
-    for item in raw_items:
-        hash_id = item.get("hash_id")
-        if hash_id is None:
+    for item, url in raw_items:
+        listing_id = item.get("id")
+        if listing_id is None:
             continue
+        listing_id = str(listing_id)
 
-        price = extract_price(item)
-        if max_price is not None and (price is None or price > max_price):
-            continue
+        locality = item.get("locality") or {}
+        city = locality.get("city") or ""
+        city_part = locality.get("cityPart") or ""
+        location = f"{city} - {city_part}" if city_part else city
 
-        locality = item.get("locality", "") or ""
-        if city_keyword and city_keyword not in strip_diacritics(locality).lower():
-            continue
+        disposition = (item.get("categorySubCb") or {}).get("name", "unknown")
 
-        disposition = extract_disposition(item)
-        if requested_dispositions and disposition.lower() not in requested_dispositions:
-            continue
-
-        results[str(hash_id)] = {
-            "id": str(hash_id),
+        results[listing_id] = {
+            "id": listing_id,
             "name": item.get("name", ""),
-            "price": price,
-            "location": locality,
+            "price": item.get("priceCzk"),
+            "location": location,
             "disposition": disposition,
-            "url": build_detail_url(item),
+            "url": url,
         }
 
     return results
@@ -266,25 +194,19 @@ def save_json_file(path: Path, data):
 
 def main():
     config = load_config()
-    search_params = parse_search_url(config["search_url"])
+    search_url = config["search_url"]
 
-    print(f"Scanning: {config['search_url']}")
-    print(f"Resolved API filters: {search_params}")
+    print(f"Scanning: {search_url}")
 
     raw_items = fetch_all_estates(
-        search_params,
+        search_url,
         delay=config.get("request_delay_seconds", 1.0),
         timeout=config.get("request_timeout_seconds", 20),
     )
-    print(f"Fetched {len(raw_items)} raw listings from the API")
+    print(f"Fetched {len(raw_items)} listings across all pages")
 
-    current = normalize_listings(
-        raw_items,
-        city_keyword=search_params["city_keyword"],
-        max_price=search_params["max_price"],
-        requested_dispositions=search_params["requested_dispositions"],
-    )
-    print(f"{len(current)} listings match after price/location filtering")
+    current = normalize_listings(raw_items)
+    print(f"{len(current)} listings after normalizing")
 
     database = load_json_file(DATABASE_PATH, default={})
 
