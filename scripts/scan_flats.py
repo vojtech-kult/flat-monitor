@@ -37,7 +37,10 @@ HEADERS = {
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
     ),
-    "Accept": "application/json",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "cs,en;q=0.8",
+    "Referer": "https://www.sreality.cz/hledani/pronajem/byty",
+    "X-Requested-With": "XMLHttpRequest",
 }
 
 # sreality path segments -> category_main_cb
@@ -102,10 +105,12 @@ def parse_search_url(search_url: str) -> dict:
     query = urllib.parse.parse_qs(parsed.query)
 
     sub_cb_ids = []
+    requested_dispositions = set()
     if "velikost" in query:
         raw_sizes = query["velikost"][0].split(",")
         for size in raw_sizes:
             size = size.strip()
+            requested_dispositions.add(size.lower())
             code = DISPOSITION_TO_SUBCB.get(size)
             if code:
                 sub_cb_ids.append(code)
@@ -123,6 +128,7 @@ def parse_search_url(search_url: str) -> dict:
         "category_type_cb": CATEGORY_TYPE[type_slug],
         "category_main_cb": CATEGORY_MAIN[main_slug],
         "category_sub_cb": sub_cb_ids,
+        "requested_dispositions": requested_dispositions,
         "max_price": max_price,
         "city_keyword": strip_diacritics(city_slug).lower() if city_slug else None,
     }
@@ -137,7 +143,9 @@ def fetch_all_estates(params: dict, delay: float, timeout: float) -> list:
         "page": 1,
     }
     if params["category_sub_cb"]:
-        query["category_sub_cb"] = params["category_sub_cb"]
+        # sreality's API expects sub-category filters as a single
+        # pipe-separated value (e.g. "8|9|10|11"), NOT repeated query keys.
+        query["category_sub_cb"] = "|".join(str(c) for c in params["category_sub_cb"])
 
     all_items = []
     page = 1
@@ -146,6 +154,9 @@ def fetch_all_estates(params: dict, delay: float, timeout: float) -> list:
     while True:
         query["page"] = page
         resp = requests.get(API_BASE, params=query, headers=HEADERS, timeout=timeout)
+        if not resp.ok:
+            print(f"Request failed: {resp.status_code} {resp.url}")
+            print(f"Response body (first 500 chars): {resp.text[:500]}")
         resp.raise_for_status()
         payload = resp.json()
 
@@ -202,9 +213,14 @@ def extract_price(item: dict):
     return value
 
 
-def normalize_listings(raw_items: list, city_keyword: str, max_price) -> dict:
-    """Filter raw API items down to the ones matching city + price, and
-    reshape them into the compact record format we store."""
+def normalize_listings(raw_items: list, city_keyword: str, max_price, requested_dispositions=None) -> dict:
+    """Filter raw API items down to the ones matching city + price +
+    disposition, and reshape them into the compact record format we store.
+
+    Disposition is re-checked here (not just via the API's category_sub_cb
+    param) so results stay correct even if that param is ever ignored or
+    mis-parsed by sreality's backend.
+    """
     results = {}
     for item in raw_items:
         hash_id = item.get("hash_id")
@@ -219,12 +235,16 @@ def normalize_listings(raw_items: list, city_keyword: str, max_price) -> dict:
         if city_keyword and city_keyword not in strip_diacritics(locality).lower():
             continue
 
+        disposition = extract_disposition(item)
+        if requested_dispositions and disposition.lower() not in requested_dispositions:
+            continue
+
         results[str(hash_id)] = {
             "id": str(hash_id),
             "name": item.get("name", ""),
             "price": price,
             "location": locality,
-            "disposition": extract_disposition(item),
+            "disposition": disposition,
             "url": build_detail_url(item),
         }
 
@@ -262,6 +282,7 @@ def main():
         raw_items,
         city_keyword=search_params["city_keyword"],
         max_price=search_params["max_price"],
+        requested_dispositions=search_params["requested_dispositions"],
     )
     print(f"{len(current)} listings match after price/location filtering")
 
