@@ -33,7 +33,7 @@ import requests
 # A big warning is also printed to the run log whenever this is True, so
 # it's hard to miss if you forget to flip it back.
 # ============================================================================
-TESTING_MODE = True
+TESTING_MODE = False
 # ============================================================================
 
 ROOT = Path(__file__).resolve().parent.parent
