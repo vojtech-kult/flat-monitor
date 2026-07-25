@@ -33,7 +33,7 @@ import requests
 # A big warning is also printed to the run log whenever this is True, so
 # it's hard to miss if you forget to flip it back.
 # ============================================================================
-TESTING_MODE = True
+TESTING_MODE = False
 # ============================================================================
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -73,7 +73,12 @@ def build_message_chunks(flats: list, role_id: str = None) -> list:
     if role_id:
         header = f"<@&{role_id}>\n{header}"
 
-    entries = [f"{flat['location']}, {flat['disposition']}\n{flat['url']}" for flat in flats]
+    entries = [
+        f"{flat['location']}, {flat['disposition']}\n"
+        f"{flat['priceCzk']}\n"
+        f"{flat['url']}"
+        for flat in flats
+    ]
 
     chunks = []
     current_lines = [header]
