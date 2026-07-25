@@ -129,6 +129,17 @@ def main():
                     start = max(0, idx - 60)
                     end = min(len(blob), idx + 120)
                     print(f"      context: {blob[start:end]!r}")
+
+            # The estatesSearch react-query cache entry may embed the actual
+            # results under this page's SSR data -- dump a wide window
+            # around it so we can see field names even if they differ from
+            # the old API (e.g. camelCase, different id key, etc.)
+            es_idx = blob.find('"estatesSearch"')
+            if es_idx != -1:
+                start = max(0, es_idx - 4000)
+                end = min(len(blob), es_idx + 4000)
+                print("\n=== Wide context around 'estatesSearch' cache entry in __NEXT_DATA__ ===")
+                print(blob[start:end])
         else:
             print("No __NEXT_DATA__ script tag found.")
 
@@ -157,15 +168,15 @@ def main():
         # endpoints inside compiled JS, so grep chunk files for signatures.
         print("=== Scanning JS chunk bundles for API/search-backend signatures ===")
         needles = [
-            "/api/", "graphql", "algolia", "elastic", "typesense",
-            "meilisearch", "hash_id", "price_czk", "category_main_cb",
-            "category_sub_cb", "estates?",
+            "estatesSearch", "estatesFilterPage", "/estates", "localityRegionId",
+            "graphql", "gql`", "query {", "mutation ", "algolia", "elastic",
+            "baseURL", "axios.create", "NEXT_PUBLIC", "process.env",
+            "X-Api-Key", "sreality.cz/api", "REALITY_API", "hash_id",
+            "category_main_cb", "category_sub_cb",
         ]
         found_any = {}
         checked = 0
         for src in script_srcs:
-            if checked >= 45:
-                break
             full_url = src if src.startswith("http") else "https://www.sreality.cz" + src
             try:
                 r = requests.get(full_url, headers=HEADERS, timeout=15)
@@ -179,19 +190,33 @@ def main():
             for needle in needles:
                 if needle in body:
                     idx = body.find(needle)
-                    start = max(0, idx - 80)
-                    end = min(len(body), idx + 160)
+                    start = max(0, idx - 100)
+                    end = min(len(body), idx + 250)
                     ctx = body[start:end]
                     found_any.setdefault(needle, []).append((src, ctx))
 
-        print(f"Checked {checked} JS bundle(s).")
+        print(f"Checked {checked} JS bundle(s) (of {len(script_srcs)} total).")
         for needle, hits in found_any.items():
             print(f"\n  Signature '{needle}' found in {len(hits)} bundle(s):")
-            for src, ctx in hits[:3]:
+            for src, ctx in hits[:4]:
                 print(f"    file: {src}")
                 print(f"    context: {ctx!r}")
         if not found_any:
             print("  No signatures found in the scanned bundles.")
+
+        # Specifically zoom in on the estatesSearch hit, if any, and print a
+        # much wider context window so we can see the actual fetch/url call.
+        if "estatesSearch" in found_any:
+            src, _ = found_any["estatesSearch"][0]
+            full_url = src if src.startswith("http") else "https://www.sreality.cz" + src
+            r = requests.get(full_url, headers=HEADERS, timeout=15)
+            body = r.text
+            idx = body.find("estatesSearch")
+            start = max(0, idx - 1500)
+            end = min(len(body), idx + 1500)
+            print("\n=== Wide context around 'estatesSearch' definition ===")
+            print(f"file: {src}")
+            print(body[start:end])
 
     except Exception as exc:  # noqa: BLE001
         print(f"[ERR] search page fetch -> {exc}")
