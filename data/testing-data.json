@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1933398860",
+    "name": "Pronájem bytu 4+1 128 m²",
+    "price": 37000,
+    "location": "Praha - Kobylisy",
+    "disposition": "4+1",
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-kobylisy-sluzska/1933398860"
+  },
+  {
+    "id": "606720076",
+    "name": "Pronájem bytu 4+kk 95 m²",
+    "price": 39500,
+    "location": "Praha - Hradčany",
+    "disposition": "4+kk",
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-hradcany-keplerova/606720076"
+  },
+  {
+    "id": "1423896652",
+    "name": "Pronájem bytu 5+kk 140 m²",
+    "price": 41500,
+    "location": "Praha - Lhotka",
+    "disposition": "5+kk",
+    "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-lhotka-jilovska/1423896652"
+  }
+]
