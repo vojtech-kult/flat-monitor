@@ -1,6 +1,12 @@
 name: Scan flat rents
 
 on:
+  # Triggered by an external cron service (see README "External cron
+  # trigger" section) POSTing to GitHub's repository_dispatch API with
+  # event_type "scan-flats". GitHub's own built-in `schedule:` trigger is
+  # intentionally NOT used here, per request.
+  repository_dispatch:
+    types: [scan-flats]
   workflow_dispatch: {}
 
 permissions:
