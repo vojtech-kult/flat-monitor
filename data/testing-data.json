@@ -1,9 +1,9 @@
-[
+{
   "1035788364": {
     "disposition": "4+kk",
     "id": "1035788364",
     "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 4+kk 116 m²",
+    "name": "Pronájem bytu 4+kk 116 m²",
     "price": 38990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-vinohrady-ondrickova/1035788364"
   },
@@ -11,8 +11,8 @@
     "disposition": "4+1",
     "id": "106201164",
     "location": "Praha - Střešovice",
-    "name": "Pronájem bytu 4+1 100 m²",
+    "name": "Pronájem bytu 4+1 100 m²",
     "price": 38000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-stresovice-cukrovarnicka/106201164"
   }
-]
+}
