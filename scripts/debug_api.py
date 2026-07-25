@@ -109,14 +109,89 @@ def main():
             print(f"__NEXT_DATA__ blob length: {len(blob)} chars")
             print("First 500 chars of __NEXT_DATA__:")
             print(blob[:500])
+
+            # Show context around every 'estates' occurrence
+            for m in re.finditer("estates", blob):
+                start = max(0, m.start() - 80)
+                end = min(len(blob), m.end() + 80)
+                print(f"  ...context around 'estates' @ {m.start()}: {blob[start:end]!r}")
+
+            # Look for likely API/search-backend config keys or hostnames
+            for needle in (
+                "apiUrl", "apiUri", "apiBase", "apiHost", "endpoint", "graphql",
+                "algolia", "elastic", "typesense", "meilisearch", "searchUrl",
+                "gatewayUrl", "baseUrl", "restUrl",
+            ):
+                count = blob.lower().count(needle.lower())
+                if count:
+                    print(f"  '{needle}' appears {count}x in __NEXT_DATA__")
+                    idx = blob.lower().find(needle.lower())
+                    start = max(0, idx - 60)
+                    end = min(len(blob), idx + 120)
+                    print(f"      context: {blob[start:end]!r}")
         else:
             print("No __NEXT_DATA__ script tag found.")
 
-        # List any script src references so we know where the JS bundles live
+        # Also scan the whole page (not just __NEXT_DATA__) for backend signatures,
+        # in case runtime config lives in a separate inline script tag.
+        print("=== Scanning full HTML for backend signatures ===")
+        for needle in (
+            "apiUrl", "apiUri", "apiBase", "apiHost", "endpoint", "graphql",
+            "algolia", "elastic", "typesense", "meilisearch", "searchUrl",
+            "gatewayUrl", "baseUrl", "restUrl", "sdapi", "gateway",
+        ):
+            count = html.lower().count(needle.lower())
+            if count:
+                print(f"  '{needle}' appears {count}x in full HTML")
+                idx = html.lower().find(needle.lower())
+                start = max(0, idx - 60)
+                end = min(len(html), idx + 150)
+                print(f"      context: {html[start:end]!r}")
+
         script_srcs = sorted(set(re.findall(r'<script[^>]+src="([^"]+)"', html)))
         print(f"Found {len(script_srcs)} <script src> reference(s), first 20:")
         for s in script_srcs[:20]:
             print("   ", s)
+
+        # Dig into the actual JS bundles: Next.js apps hardcode their fetch
+        # endpoints inside compiled JS, so grep chunk files for signatures.
+        print("=== Scanning JS chunk bundles for API/search-backend signatures ===")
+        needles = [
+            "/api/", "graphql", "algolia", "elastic", "typesense",
+            "meilisearch", "hash_id", "price_czk", "category_main_cb",
+            "category_sub_cb", "estates?",
+        ]
+        found_any = {}
+        checked = 0
+        for src in script_srcs:
+            if checked >= 45:
+                break
+            full_url = src if src.startswith("http") else "https://www.sreality.cz" + src
+            try:
+                r = requests.get(full_url, headers=HEADERS, timeout=15)
+                checked += 1
+            except Exception as exc:  # noqa: BLE001
+                print(f"  [ERR fetching {src}] {exc}")
+                continue
+            if not r.ok:
+                continue
+            body = r.text
+            for needle in needles:
+                if needle in body:
+                    idx = body.find(needle)
+                    start = max(0, idx - 80)
+                    end = min(len(body), idx + 160)
+                    ctx = body[start:end]
+                    found_any.setdefault(needle, []).append((src, ctx))
+
+        print(f"Checked {checked} JS bundle(s).")
+        for needle, hits in found_any.items():
+            print(f"\n  Signature '{needle}' found in {len(hits)} bundle(s):")
+            for src, ctx in hits[:3]:
+                print(f"    file: {src}")
+                print(f"    context: {ctx!r}")
+        if not found_any:
+            print("  No signatures found in the scanned bundles.")
 
     except Exception as exc:  # noqa: BLE001
         print(f"[ERR] search page fetch -> {exc}")
