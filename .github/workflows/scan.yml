@@ -24,6 +24,11 @@ jobs:
       - name: Run scan
         run: python scripts/scan_flats.py
 
+      - name: Notify Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python scripts/notify_discord.py
+
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
