@@ -1,8 +1,6 @@
 name: Scan flat rents
 
 on:
-  schedule:
-    - cron: "7 * * * *"
   workflow_dispatch: {}
 
 permissions:
