@@ -89,14 +89,26 @@ def main():
             # try to find the actual results list
             for key in ("results", "estates", "items", "data"):
                 if key in result_data and isinstance(result_data[key], list) and result_data[key]:
-                    print(f"\n  First item under '{key}':")
-                    print(json.dumps(result_data[key][0], ensure_ascii=False, indent=2)[:3000])
+                    first = dict(result_data[key][0])
+                    first.pop("images", None)  # drop the bulky images array
+                    print(f"\n  First item under '{key}' (images omitted):")
+                    print(json.dumps(first, ensure_ascii=False, indent=2))
                     break
         elif isinstance(result_data, list):
             print(f"  state.data is a list of length {len(result_data)}")
             if result_data:
-                print("  First item:")
-                print(json.dumps(result_data[0], ensure_ascii=False, indent=2)[:3000])
+                first = dict(result_data[0])
+                first.pop("images", None)
+                print("  First item (images omitted):")
+                print(json.dumps(first, ensure_ascii=False, indent=2))
+
+    # Find actual rendered detail-page links in the HTML, to confirm the
+    # real URL pattern (rather than guessing from the old API's seo fields).
+    print("\n=== Detail-page hrefs found in rendered HTML ===")
+    detail_links = sorted(set(re.findall(r'href="(/detail/[^"]+)"', html)))
+    print(f"Found {len(detail_links)} distinct /detail/ href(s), first 10:")
+    for link in detail_links[:10]:
+        print("   ", link)
 
     # Look for pagination hints in the raw HTML (rel=next links, "strana", buttons)
     print("\n=== Pagination hints in HTML ===")
