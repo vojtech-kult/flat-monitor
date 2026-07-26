@@ -1,28 +1,4 @@
 {
-  "1017205580": {
-    "disposition": "4+1",
-    "id": "1017205580",
-    "location": "Praha - Chodov",
-    "name": "Pronájem bytu 4+1 128 m²",
-    "price": 41500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-chodov-medkova/1017205580"
-  },
-  "1018200140": {
-    "disposition": "4+kk",
-    "id": "1018200140",
-    "location": "Praha - Chodov",
-    "name": "Pronájem bytu 4+kk 85 m²",
-    "price": 31000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-chodov-zlesicka/1018200140"
-  },
-  "1035788364": {
-    "disposition": "4+kk",
-    "id": "1035788364",
-    "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 4+kk 116 m²",
-    "price": 38990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-vinohrady-ondrickova/1035788364"
-  },
   "106201164": {
     "disposition": "4+1",
     "id": "106201164",
@@ -30,22 +6,6 @@
     "name": "Pronájem bytu 4+1 100 m²",
     "price": 38000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-stresovice-cukrovarnicka/106201164"
-  },
-  "1063100492": {
-    "disposition": "4+kk",
-    "id": "1063100492",
-    "location": "Praha - Michle",
-    "name": "Pronájem bytu 4+kk 84 m²",
-    "price": 32990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-michle-na-uhoru/1063100492"
-  },
-  "1116332108": {
-    "disposition": "4+kk",
-    "id": "1116332108",
-    "location": "Praha - Horní Počernice",
-    "name": "Pronájem bytu 4+kk 103 m²",
-    "price": 24000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-horni-pocernice-nachodska/1116332108"
   },
   "1268244556": {
     "disposition": "4+1",
@@ -55,14 +15,6 @@
     "price": 25900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-krc-v-stihlach/1268244556"
   },
-  "1335947340": {
-    "disposition": "4+kk",
-    "id": "1335947340",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 4+kk 83 m²",
-    "price": 33000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-zabehlice-u-mlyna/1335947340"
-  },
   "1351413836": {
     "disposition": "4+1",
     "id": "1351413836",
@@ -70,14 +22,6 @@
     "name": "Pronájem bytu 4+1 108 m²",
     "price": 39900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-smichov-karla-englise/1351413836"
-  },
-  "1393786956": {
-    "disposition": "4+kk",
-    "id": "1393786956",
-    "location": "Praha - Vokovice",
-    "name": "Pronájem bytu 4+kk 153 m²",
-    "price": 39500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-vokovice-irska/1393786956"
   },
   "1423896652": {
     "disposition": "4+1",
@@ -95,14 +39,6 @@
     "price": 29000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-kosire-pod-klamovkou/1535569996"
   },
-  "1542762572": {
-    "disposition": "4+kk",
-    "id": "1542762572",
-    "location": "Praha - Modřany",
-    "name": "Pronájem bytu 4+kk 82 m²",
-    "price": 32000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-modrany-plovdivska/1542762572"
-  },
   "1558110284": {
     "disposition": "4+1",
     "id": "1558110284",
@@ -110,30 +46,6 @@
     "name": "Pronájem bytu 4+1 96 m²",
     "price": 35000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-nusle-u-druzstva-repo/1558110284"
-  },
-  "1562619980": {
-    "disposition": "4+1",
-    "id": "1562619980",
-    "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 4+1 107 m²",
-    "price": 42000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vinohrady-koubkova/1562619980"
-  },
-  "1603788876": {
-    "disposition": "4+kk",
-    "id": "1603788876",
-    "location": "Praha - Michle",
-    "name": "Pronájem bytu 4+kk 120 m²",
-    "price": 40000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-michle-jaurisova/1603788876"
-  },
-  "1623425100": {
-    "disposition": "4+kk",
-    "id": "1623425100",
-    "location": "Praha - Vysočany",
-    "name": "Pronájem bytu 4+kk 160 m²",
-    "price": 27000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-vysocany-novovysocanska/1623425100"
   },
   "1750397004": {
     "disposition": "4+1",
@@ -167,46 +79,6 @@
     "price": 37000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-kobylisy-sluzska/1933398860"
   },
-  "1984487500": {
-    "disposition": "4+kk",
-    "id": "1984487500",
-    "location": "Praha - Kamýk",
-    "name": "Pronájem bytu 4+kk 78 m²",
-    "price": 30000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-kamyk-pavlikova/1984487500"
-  },
-  "2045227852": {
-    "disposition": "4+kk",
-    "id": "2045227852",
-    "location": "Praha - Vršovice",
-    "name": "Pronájem bytu 4+kk 92 m²",
-    "price": 39000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-vrsovice-kazasska/2045227852"
-  },
-  "2065793100": {
-    "disposition": "4+kk",
-    "id": "2065793100",
-    "location": "Praha - Vršovice",
-    "name": "Pronájem bytu 4+kk 107 m²",
-    "price": 38000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-vrsovice-kazasska/2065793100"
-  },
-  "2072830028": {
-    "disposition": "4+kk",
-    "id": "2072830028",
-    "location": "Praha - Kamýk",
-    "name": "Pronájem bytu 4+kk 78 m²",
-    "price": 30000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-kamyk-pavlikova/2072830028"
-  },
-  "2118381644": {
-    "disposition": "4+kk",
-    "id": "2118381644",
-    "location": "Praha - Štěrboholy",
-    "name": "Pronájem bytu 4+kk 85 m²",
-    "price": 36000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-sterboholy-andersenova/2118381644"
-  },
   "2167595084": {
     "disposition": "4+1",
     "id": "2167595084",
@@ -239,54 +111,6 @@
     "price": 39900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-nebusice-nad-zelivkou/2431049804"
   },
-  "2558849100": {
-    "disposition": "4+kk",
-    "id": "2558849100",
-    "location": "Praha - Libeň",
-    "name": "Pronájem bytu 4+kk 84 m²",
-    "price": 26990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-liben-na-okrouhliku/2558849100"
-  },
-  "2595151948": {
-    "disposition": "4+kk",
-    "id": "2595151948",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 4+kk 82 m²",
-    "price": 27000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-zabehlice-aubrechtove/2595151948"
-  },
-  "2613620812": {
-    "disposition": "4+1",
-    "id": "2613620812",
-    "location": "Praha - Chodov",
-    "name": "Pronájem bytu 4+1 129 m²",
-    "price": 41500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-chodov-medkova/2613620812"
-  },
-  "2642903116": {
-    "disposition": "4+kk",
-    "id": "2642903116",
-    "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 4+kk 95 m²",
-    "price": 39500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-vinohrady-slezska/2642903116"
-  },
-  "2696929356": {
-    "disposition": "4+kk",
-    "id": "2696929356",
-    "location": "Praha - Smíchov",
-    "name": "Pronájem bytu 4+kk 104 m²",
-    "price": 41500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-smichov-plzenska/2696929356"
-  },
-  "2706038860": {
-    "disposition": "4+kk",
-    "id": "2706038860",
-    "location": "Praha - Libuš",
-    "name": "Pronájem bytu 4+kk 133 m²",
-    "price": 42000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-libus-libusska/2706038860"
-  },
   "2747785292": {
     "disposition": "4+1",
     "id": "2747785292",
@@ -294,30 +118,6 @@
     "name": "Pronájem bytu 4+1 89 m²",
     "price": 25990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-cerny-most-dolezalova/2747785292"
-  },
-  "2791149644": {
-    "disposition": "4+kk",
-    "id": "2791149644",
-    "location": "Praha - Libeň",
-    "name": "Pronájem bytu 4+kk 89 m²",
-    "price": 30000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-liben-kubisova/2791149644"
-  },
-  "281661516": {
-    "disposition": "4+kk",
-    "id": "281661516",
-    "location": "Praha - Prosek",
-    "name": "Pronájem bytu 4+kk 83 m²",
-    "price": 33000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-prosek-cakovicka/281661516"
-  },
-  "2979061836": {
-    "disposition": "4+kk",
-    "id": "2979061836",
-    "location": "Praha - Modřany",
-    "name": "Pronájem bytu 4+kk 75 m²",
-    "price": 29990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-modrany-platonova/2979061836"
   },
   "3017793612": {
     "disposition": "4+1",
@@ -335,14 +135,6 @@
     "price": 37000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-zabehlice-hlavni/3019894860"
   },
-  "3081490508": {
-    "disposition": "4+kk",
-    "id": "3081490508",
-    "location": "Praha - Nové Město",
-    "name": "Pronájem bytu 4+kk 108 m²",
-    "price": 39900,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-nove-mesto-legerova/3081490508"
-  },
   "3111833676": {
     "disposition": "5+kk",
     "id": "3111833676",
@@ -359,30 +151,6 @@
     "price": 40000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vokovice-na-rozdilu/3217805388"
   },
-  "3316371532": {
-    "disposition": "4+kk",
-    "id": "3316371532",
-    "location": "Praha - Nové Město",
-    "name": "Pronájem bytu 4+kk 100 m²",
-    "price": 39900,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-nove-mesto-zitna/3316371532"
-  },
-  "3331776588": {
-    "disposition": "4+kk",
-    "id": "3331776588",
-    "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 4+kk 95 m²",
-    "price": 37000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-vinohrady-korunni/3331776588"
-  },
-  "3400561484": {
-    "disposition": "4+kk",
-    "id": "3400561484",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 4+kk 100 m²",
-    "price": 36000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-zabehlice-mattioliho/3400561484"
-  },
   "3423440972": {
     "disposition": "4+1",
     "id": "3423440972",
@@ -390,22 +158,6 @@
     "name": "Pronájem bytu 4+1 134 m²",
     "price": 40000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-liben-primatorska/3423440972"
-  },
-  "3539857484": {
-    "disposition": "4+kk",
-    "id": "3539857484",
-    "location": "Praha - Vršovice",
-    "name": "Pronájem bytu 4+kk 107 m²",
-    "price": 38000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-vrsovice-kazasska/3539857484"
-  },
-  "3542798412": {
-    "disposition": "4+kk",
-    "id": "3542798412",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 4+kk 82 m²",
-    "price": 33000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-zabehlice-u-mlyna/3542798412"
   },
   "3595739212": {
     "disposition": "4+1",
@@ -415,46 +167,6 @@
     "price": 33900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-modrany-baruncina/3595739212"
   },
-  "3774525516": {
-    "disposition": "4+kk",
-    "id": "3774525516",
-    "location": "Praha - Motol",
-    "name": "Pronájem bytu 4+kk 103 m²",
-    "price": 30500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-motol-na-homolce/3774525516"
-  },
-  "3823427660": {
-    "disposition": "4+kk",
-    "id": "3823427660",
-    "location": "Praha - Smíchov",
-    "name": "Pronájem bytu 4+kk 104 m²",
-    "price": 41500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-smichov-plzenska/3823427660"
-  },
-  "3872579660": {
-    "disposition": "4+kk",
-    "id": "3872579660",
-    "location": "Praha - Nusle",
-    "name": "Pronájem bytu 4+kk 67 m²",
-    "price": 40000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-nusle-plaminkove/3872579660"
-  },
-  "3914657868": {
-    "disposition": "4+kk",
-    "id": "3914657868",
-    "location": "Praha - Černý Most",
-    "name": "Pronájem bytu 4+kk 74 m²",
-    "price": 32900,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-cerny-most-bryksova/3914657868"
-  },
-  "3955286092": {
-    "disposition": "4+kk",
-    "id": "3955286092",
-    "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 4+kk 109 m²",
-    "price": 42000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-vinohrady-budecska/3955286092"
-  },
   "3966767948": {
     "disposition": "4+1",
     "id": "3966767948",
@@ -462,54 +174,6 @@
     "name": "Pronájem bytu 4+1 110 m²",
     "price": 39000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vinohrady-anny-letenske/3966767948"
-  },
-  "4003979340": {
-    "disposition": "4+kk",
-    "id": "4003979340",
-    "location": "Praha - Břevnov",
-    "name": "Pronájem bytu 4+kk 120 m²",
-    "price": 38000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-brevnov-belohorska/4003979340"
-  },
-  "4030763084": {
-    "disposition": "4+kk",
-    "id": "4030763084",
-    "location": "Praha - Sobín",
-    "name": "Pronájem bytu 4+kk 75 m²",
-    "price": 25000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-sobin-habricka/4030763084"
-  },
-  "404197452": {
-    "disposition": "4+kk",
-    "id": "404197452",
-    "location": "Praha - Libeň",
-    "name": "Pronájem bytu 4+kk 102 m²",
-    "price": 39000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-liben-frantiska-kadlece/404197452"
-  },
-  "410644556": {
-    "disposition": "4+1",
-    "id": "410644556",
-    "location": "Praha - Chodov",
-    "name": "Pronájem bytu 4+1 129 m²",
-    "price": 41500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-chodov-medkova/410644556"
-  },
-  "4136104012": {
-    "disposition": "4+kk",
-    "id": "4136104012",
-    "location": "Praha - Háje",
-    "name": "Pronájem bytu 4+kk 89 m²",
-    "price": 37000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-haje-jurkovicova/4136104012"
-  },
-  "416276556": {
-    "disposition": "4+kk",
-    "id": "416276556",
-    "location": "Praha - Smíchov",
-    "name": "Pronájem bytu 4+kk 75 m²",
-    "price": 26000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-smichov-plzenska/416276556"
   },
   "4195672140": {
     "disposition": "5+kk",
@@ -519,14 +183,6 @@
     "price": 36000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-komorany-na-homoli/4195672140"
   },
-  "4233814092": {
-    "disposition": "4+kk",
-    "id": "4233814092",
-    "location": "Praha - Ruzyně",
-    "name": "Pronájem bytu 4+kk 93 m²",
-    "price": 38309,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-ruzyne-stocesova/4233814092"
-  },
   "461758540": {
     "disposition": "4+1",
     "id": "461758540",
@@ -535,22 +191,6 @@
     "price": 40000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vinohrady-perunova/461758540"
   },
-  "48947276": {
-    "disposition": "4+kk",
-    "id": "48947276",
-    "location": "Praha - Chodov",
-    "name": "Pronájem bytu 4+kk 130 m²",
-    "price": 30000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-chodov-medkova/48947276"
-  },
-  "492494924": {
-    "disposition": "4+kk",
-    "id": "492494924",
-    "location": "Praha - Ruzyně",
-    "name": "Pronájem bytu 4+kk 85 m²",
-    "price": 35149,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-ruzyne-stocesova/492494924"
-  },
   "51105868": {
     "disposition": "5+kk",
     "id": "51105868",
@@ -558,14 +198,6 @@
     "name": "Pronájem bytu 5+kk 135 m²",
     "price": 39000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-radotin-tachovska/51105868"
-  },
-  "574943308": {
-    "disposition": "4+kk",
-    "id": "574943308",
-    "location": "Praha - Praha 4",
-    "name": "Pronájem bytu 4+kk 92 m²",
-    "price": 29900,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-praha-4-goncarenkova/574943308"
   },
   "606720076": {
     "disposition": "4+1",
@@ -591,14 +223,6 @@
     "price": 26000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-smichov-lidicka/730890316"
   },
-  "821358668": {
-    "disposition": "4+kk",
-    "id": "821358668",
-    "location": "Praha - Stodůlky",
-    "name": "Pronájem bytu 4+kk 109 m²",
-    "price": 32000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-stodulky-slunecni-namesti/821358668"
-  },
   "840101964": {
     "disposition": "5+kk",
     "id": "840101964",
@@ -622,21 +246,5 @@
     "name": "Pronájem bytu 4+1 108 m²",
     "price": 38000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-bubenec-charlese-de-gaulla/902684748"
-  },
-  "917692492": {
-    "disposition": "4+kk",
-    "id": "917692492",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 4+kk 112 m²",
-    "price": 40000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-zabehlice-jetelova/917692492"
-  },
-  "963829836": {
-    "disposition": "4+kk",
-    "id": "963829836",
-    "location": "Praha - Žižkov",
-    "name": "Pronájem bytu 4+kk 144 m²",
-    "price": 35000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/praha-zizkov-pod-parukarkou/963829836"
   }
 }
