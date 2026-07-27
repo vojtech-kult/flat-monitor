@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "disposition": "5+kk",
+    "id": "4195672140",
+    "location": "Praha - Komořany",
+    "name": "Pronájem bytu 5+kk 78 m²",
+    "price": 36000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-komorany-na-homoli/4195672140"
+  },
+  {
+    "disposition": "4+1",
+    "id": "3625504844",
+    "location": "Praha - Smíchov",
+    "name": "Pronájem bytu 4+1 94 m²",
+    "price": 36000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-smichov-pod-fialkou/3625504844"
+  },
+  {
+    "disposition": "4+1",
+    "id": "1562619980",
+    "location": "Praha - Vinohrady",
+    "name": "Pronájem bytu 4+1 107 m²",
+    "price": 36000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vinohrady-koubkova/1562619980"
+  }
+]

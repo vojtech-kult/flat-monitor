@@ -47,6 +47,14 @@
     "price": 35000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-nusle-u-druzstva-repo/1558110284"
   },
+  "1562619980": {
+    "disposition": "4+1",
+    "id": "1562619980",
+    "location": "Praha - Vinohrady",
+    "name": "Pronájem bytu 4+1 107 m²",
+    "price": 36000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vinohrady-koubkova/1562619980"
+  },
   "1750397004": {
     "disposition": "4+1",
     "id": "1750397004",
@@ -159,13 +167,13 @@
     "price": 40000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-liben-primatorska/3423440972"
   },
-  "3595739212": {
+  "3625504844": {
     "disposition": "4+1",
-    "id": "3595739212",
-    "location": "Praha - Modřany",
-    "name": "Pronájem bytu 4+1 78 m²",
-    "price": 33900,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-modrany-baruncina/3595739212"
+    "id": "3625504844",
+    "location": "Praha - Smíchov",
+    "name": "Pronájem bytu 4+1 94 m²",
+    "price": 36000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-smichov-pod-fialkou/3625504844"
   },
   "3966767948": {
     "disposition": "4+1",
@@ -174,6 +182,14 @@
     "name": "Pronájem bytu 4+1 110 m²",
     "price": 39000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vinohrady-anny-letenske/3966767948"
+  },
+  "4195672140": {
+    "disposition": "5+kk",
+    "id": "4195672140",
+    "location": "Praha - Komořany",
+    "name": "Pronájem bytu 5+kk 78 m²",
+    "price": 36000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-komorany-na-homoli/4195672140"
   },
   "461758540": {
     "disposition": "4+1",
@@ -190,14 +206,6 @@
     "name": "Pronájem bytu 5+kk 135 m²",
     "price": 39000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-radotin-tachovska/51105868"
-  },
-  "606720076": {
-    "disposition": "4+1",
-    "id": "606720076",
-    "location": "Praha - Hradčany",
-    "name": "Pronájem bytu 4+1 156 m²",
-    "price": 35000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-hradcany-keplerova/606720076"
   },
   "672501836": {
     "disposition": "4+1",
