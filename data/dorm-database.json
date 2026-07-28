@@ -15,14 +15,6 @@
     "price": 25900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-krc-v-stihlach/1268244556"
   },
-  "1351413836": {
-    "disposition": "4+1",
-    "id": "1351413836",
-    "location": "Praha - Smíchov",
-    "name": "Pronájem bytu 4+1 108 m²",
-    "price": 39900,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-smichov-karla-englise/1351413836"
-  },
   "1423896652": {
     "disposition": "4+1",
     "id": "1423896652",
@@ -55,6 +47,14 @@
     "price": 36000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vinohrady-koubkova/1562619980"
   },
+  "1673515084": {
+    "disposition": "4+1",
+    "id": "1673515084",
+    "location": "Praha - Střešovice",
+    "name": "Pronájem bytu 4+1 112 m²",
+    "price": 30000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-stresovice-patockova/1673515084"
+  },
   "1750397004": {
     "disposition": "4+1",
     "id": "1750397004",
@@ -62,14 +62,6 @@
     "name": "Pronájem bytu 4+1 96 m²",
     "price": 31000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-cerny-most-generala-janouska/1750397004"
-  },
-  "1798500428": {
-    "disposition": "5+kk",
-    "id": "1798500428",
-    "location": "Praha - Jinonice",
-    "name": "Pronájem bytu 5+kk 129 m²",
-    "price": 30000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-jinonice-kohoutovych/1798500428"
   },
   "1847951436": {
     "disposition": "4+1",
@@ -222,14 +214,6 @@
     "name": "Pronájem bytu 4+1 116 m²",
     "price": 38000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-liboc-brodecka/672501836"
-  },
-  "730890316": {
-    "disposition": "4+1",
-    "id": "730890316",
-    "location": "Praha - Smíchov",
-    "name": "Pronájem bytu 4+1 94 m²",
-    "price": 26000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-smichov-lidicka/730890316"
   },
   "840101964": {
     "disposition": "5+kk",
