@@ -127,6 +127,14 @@
     "price": 39900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-nebusice-nad-zelivkou/2431049804"
   },
+  "2521026636": {
+    "disposition": "5+kk",
+    "id": "2521026636",
+    "location": "Praha - Libuš",
+    "name": "Pronájem bytu 5+kk 122 m²",
+    "price": 40000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-libus-libusska/2521026636"
+  },
   "3019894860": {
     "disposition": "4+1",
     "id": "3019894860",
@@ -175,14 +183,6 @@
     "price": 39000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vinohrady-anny-letenske/3966767948"
   },
-  "4195672140": {
-    "disposition": "5+kk",
-    "id": "4195672140",
-    "location": "Praha - Komořany",
-    "name": "Pronájem bytu 5+kk 78 m²",
-    "price": 36000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-komorany-na-homoli/4195672140"
-  },
   "461758540": {
     "disposition": "4+1",
     "id": "461758540",
@@ -222,14 +222,6 @@
     "name": "Pronájem bytu 5+kk 78 m²",
     "price": 36000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-komorany-na-homoli/840101964"
-  },
-  "886759500": {
-    "disposition": "5+kk",
-    "id": "886759500",
-    "location": "Praha - Nové Město",
-    "name": "Pronájem bytu 5+kk 100 m²",
-    "price": 36000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-nove-mesto-podskalska/886759500"
   },
   "902684748": {
     "disposition": "4+1",
