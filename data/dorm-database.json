@@ -95,14 +95,6 @@
     "price": 28000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-haje-matuskova/2167595084"
   },
-  "2284093516": {
-    "disposition": "4+1",
-    "id": "2284093516",
-    "location": "Praha - Černý Most",
-    "name": "Pronájem bytu 4+1 85 m²",
-    "price": 26000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-cerny-most-sromova/2284093516"
-  },
   "2302861388": {
     "disposition": "5+kk",
     "id": "2302861388",
@@ -132,7 +124,7 @@
     "id": "3019894860",
     "location": "Praha - Záběhlice",
     "name": "Pronájem bytu 4+1 110 m²",
-    "price": 37000,
+    "price": 34000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-zabehlice-hlavni/3019894860"
   },
   "3045052492": {
@@ -150,6 +142,14 @@
     "name": "Pronájem bytu 4+1 85 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-strasnice-slusticka/3198013516"
+  },
+  "3217805388": {
+    "disposition": "4+1",
+    "id": "3217805388",
+    "location": "Praha - Vokovice",
+    "name": "Pronájem bytu 4+1 100 m²",
+    "price": 40000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vokovice-na-rozdilu/3217805388"
   },
   "3423440972": {
     "disposition": "4+1",
