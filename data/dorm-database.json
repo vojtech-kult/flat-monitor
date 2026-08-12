@@ -55,14 +55,6 @@
     "price": 36000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-komorany-na-homoli/1547096140"
   },
-  "1562619980": {
-    "disposition": "4+1",
-    "id": "1562619980",
-    "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 4+1 107 m²",
-    "price": 36000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vinohrady-koubkova/1562619980"
-  },
   "1566294092": {
     "disposition": "4+1",
     "id": "1566294092",
@@ -167,6 +159,14 @@
     "price": 38000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-holesovice-milady-horakove/2773798988"
   },
+  "2846150732": {
+    "disposition": "4+1",
+    "id": "2846150732",
+    "location": "Praha - Řepy",
+    "name": "Pronájem bytu 4+1 88 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-repy-/2846150732"
+  },
   "3019894860": {
     "disposition": "4+1",
     "id": "3019894860",
@@ -175,14 +175,6 @@
     "price": 34000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-zabehlice-hlavni/3019894860"
   },
-  "3045052492": {
-    "disposition": "4+1",
-    "id": "3045052492",
-    "location": "Praha - Kobylisy",
-    "name": "Pronájem bytu 4+1 72 m²",
-    "price": 24000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-kobylisy-stibrova/3045052492"
-  },
   "3423440972": {
     "disposition": "4+1",
     "id": "3423440972",
@@ -190,14 +182,6 @@
     "name": "Pronájem bytu 4+1 134 m²",
     "price": 40000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-liben-primatorska/3423440972"
-  },
-  "3625504844": {
-    "disposition": "4+1",
-    "id": "3625504844",
-    "location": "Praha - Smíchov",
-    "name": "Pronájem bytu 4+1 94 m²",
-    "price": 36000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-smichov-pod-fialkou/3625504844"
   },
   "3966767948": {
     "disposition": "4+1",
