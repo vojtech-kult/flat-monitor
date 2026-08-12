@@ -119,6 +119,14 @@
     "price": 37000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-radotin-otinska/223993932"
   },
+  "22724684": {
+    "disposition": "4+1",
+    "id": "22724684",
+    "location": "Praha - Modřany",
+    "name": "Pronájem bytu 4+1 75 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-modrany-u-zastavky/22724684"
+  },
   "2302861388": {
     "disposition": "5+kk",
     "id": "2302861388",
@@ -151,13 +159,13 @@
     "price": 40000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-libus-libusska/2521026636"
   },
-  "2773798988": {
+  "2831925324": {
     "disposition": "4+1",
-    "id": "2773798988",
-    "location": "Praha - Holešovice",
-    "name": "Pronájem bytu 4+1 104 m²",
-    "price": 38000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-holesovice-milady-horakove/2773798988"
+    "id": "2831925324",
+    "location": "Praha - Smíchov",
+    "name": "Pronájem bytu 4+1 120 m²",
+    "price": 40000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-smichov-na-doubkove/2831925324"
   },
   "2846150732": {
     "disposition": "4+1",
@@ -183,6 +191,14 @@
     "price": 40000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-liben-primatorska/3423440972"
   },
+  "393920588": {
+    "disposition": "5+kk",
+    "id": "393920588",
+    "location": "Praha - Radotín",
+    "name": "Pronájem bytu 5+kk 135 m²",
+    "price": 35000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-radotin-tachovska/393920588"
+  },
   "3966767948": {
     "disposition": "4+1",
     "id": "3966767948",
@@ -206,14 +222,6 @@
     "name": "Pronájem bytu 4+1 110 m²",
     "price": 40000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vinohrady-perunova/461758540"
-  },
-  "51105868": {
-    "disposition": "5+kk",
-    "id": "51105868",
-    "location": "Praha - Radotín",
-    "name": "Pronájem bytu 5+kk 135 m²",
-    "price": 39000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-radotin-tachovska/51105868"
   },
   "672501836": {
     "disposition": "4+1",
