@@ -60,7 +60,7 @@
     "id": "1566294092",
     "location": "Praha - Stodůlky",
     "name": "Pronájem bytu 4+1 135 m²",
-    "price": 40000,
+    "price": 39000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-stodulky-volutova/1566294092"
   },
   "1572720716": {
@@ -124,7 +124,7 @@
     "id": "22724684",
     "location": "Praha - Modřany",
     "name": "Pronájem bytu 4+1 75 m²",
-    "price": 21000,
+    "price": 23000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-modrany-u-zastavky/22724684"
   },
   "2302861388": {
@@ -214,6 +214,14 @@
     "name": "Pronájem bytu 4+1 110 m²",
     "price": 39000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-vinohrady-anny-letenske/3966767948"
+  },
+  "4195672140": {
+    "disposition": "5+kk",
+    "id": "4195672140",
+    "location": "Praha - Komořany",
+    "name": "Pronájem bytu 5+kk 78 m²",
+    "price": 36000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-komorany-na-homoli/4195672140"
   },
   "461758540": {
     "disposition": "4+1",
