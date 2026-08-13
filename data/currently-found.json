@@ -1,26 +1,10 @@
 [
   {
     "disposition": "4+1",
-    "id": "2831925324",
-    "location": "Praha - Smíchov",
-    "name": "Pronájem bytu 4+1 120 m²",
-    "price": 40000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-smichov-na-doubkove/2831925324"
-  },
-  {
-    "disposition": "4+1",
-    "id": "22724684",
-    "location": "Praha - Modřany",
-    "name": "Pronájem bytu 4+1 75 m²",
-    "price": 21000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-modrany-u-zastavky/22724684"
-  },
-  {
-    "disposition": "5+kk",
-    "id": "393920588",
-    "location": "Praha - Radotín",
-    "name": "Pronájem bytu 5+kk 135 m²",
-    "price": 35000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-radotin-tachovska/393920588"
+    "id": "3045052492",
+    "location": "Praha - Kobylisy",
+    "name": "Pronájem bytu 4+1 72 m²",
+    "price": 24000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-kobylisy-stibrova/3045052492"
   }
 ]
