@@ -7,14 +7,6 @@
     "price": 32000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-nusle-u-druzstva-repo/103141452"
   },
-  "1268244556": {
-    "disposition": "4+1",
-    "id": "1268244556",
-    "location": "Praha - Krč",
-    "name": "Pronájem bytu 4+1 78 m²",
-    "price": 25900,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-krc-v-stihlach/1268244556"
-  },
   "1396494412": {
     "disposition": "4+1",
     "id": "1396494412",
@@ -182,6 +174,14 @@
     "name": "Pronájem bytu 4+1 134 m²",
     "price": 40000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-liben-primatorska/3423440972"
+  },
+  "3493380172": {
+    "disposition": "4+1",
+    "id": "3493380172",
+    "location": "Praha - Hloubětín",
+    "name": "Pronájem bytu 4+1 83 m²",
+    "price": 29500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-hloubetin-rochovska/3493380172"
   },
   "393920588": {
     "disposition": "5+kk",
