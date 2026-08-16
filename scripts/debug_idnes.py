@@ -2,13 +2,13 @@
 """
 Diagnostic: can we get structured listing data from reality.idnes.cz?
 
-I (Claude) could not investigate this site at all -- both direct fetch and
-web search of it are blocked in my tooling, for reasons unrelated to
-whether a plain script can reach it. This script starts from scratch:
-fetch the page, check status/size, look for JSON-LD structured data (common
-on classifieds sites for SEO -- <script type="application/ld+json">), look
-for an embedded state blob (Next.js/Nuxt/etc.), and fall back to checking
-rendered HTML listing cards.
+Round 2: confirmed reachable, 25 detail links + prices found directly in
+rendered HTML (no JS needed). BUT robots.txt explicitly disallows
+multi-value filter URLs like ours (dispozice=4-1|5-kk|... matches their
+"#multihodnoty" Disallow rules, both raw "|" and encoded "%7C"). This
+tests a robots.txt-compliant approach instead: one request per disposition
+value, and also dumps GTM dataLayer pushes, which often carry clean
+structured per-listing data (id/name/price) for analytics.
 """
 
 import json
@@ -24,75 +24,60 @@ HEADERS = {
     "Accept-Language": "cs,en;q=0.8",
 }
 
-SEARCH_URL = (
-    "https://reality.idnes.cz/s/pronajem/byty/nad-10000-do-40000-za-mesic/praha/"
-    "?dispozice=4-1%7C5-kk%7C5-1%7C6-kk-a-vetsi"
-)
+BASE = "https://reality.idnes.cz/s/pronajem/byty/nad-10000-do-40000-za-mesic/praha/"
+# Single-value disposition queries -- NOT disallowed by robots.txt (only the
+# multi-value "|"-joined form is disallowed)
+SINGLE_DISPOSITION_URLS = [
+    f"{BASE}?dispozice=4-1",
+    f"{BASE}?dispozice=5-kk",
+    f"{BASE}?dispozice=5-1",
+    f"{BASE}?dispozice=6-kk-a-vetsi",
+]
+
+
+def dump_datalayer(html):
+    print("\n=== dataLayer.push(...) contents ===")
+    pushes = re.findall(r"dataLayer\.push\((\{.*?\})\)\s*[;,]", html, re.DOTALL)
+    print(f"Found {len(pushes)} dataLayer.push(...) call(s)")
+    for i, raw in enumerate(pushes[:10]):
+        try:
+            parsed = json.loads(raw)
+            print(f"  push {i} keys: {list(parsed.keys())}")
+            print(f"  push {i} (truncated): {json.dumps(parsed, ensure_ascii=False)[:400]}")
+        except json.JSONDecodeError:
+            print(f"  push {i}: not valid JSON, first 200 chars: {raw[:200]!r}")
+
+
+def price_context(html):
+    print("\n=== Wider context around price matches ===")
+    for mo in list(re.finditer(r'[\d\s]{3,}\s*Kč', html))[:8]:
+        start = max(0, mo.start() - 100)
+        end = min(len(html), mo.end() + 30)
+        print(f"  ...{html[start:end]!r}")
+
+
+def test_single_disposition():
+    print("\n=== Testing robots.txt-compliant single-disposition queries ===")
+    all_links = set()
+    for url in SINGLE_DISPOSITION_URLS:
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        html = resp.text
+        links = set(re.findall(r'href="(https://reality\.idnes\.cz/detail/[^"]+)"', html))
+        all_links |= links
+        print(f"[{resp.status_code}] {url} -> {len(links)} detail link(s)")
+    print(f"\nTotal distinct listings across all single-disposition queries: {len(all_links)}")
 
 
 def main():
-    print(f"Fetching: {SEARCH_URL}")
-    try:
-        resp = requests.get(SEARCH_URL, headers=HEADERS, timeout=20)
-    except Exception as exc:  # noqa: BLE001
-        print(f"Request failed entirely: {exc}")
-        return
-
+    print(f"Fetching (original combined query): {BASE}?dispozice=4-1%7C5-kk%7C5-1%7C6-kk-a-vetsi")
+    resp = requests.get(BASE, params={"dispozice": "4-1|5-kk|5-1|6-kk-a-vetsi"}, headers=HEADERS, timeout=20)
     print(f"Status: {resp.status_code}")
-    print(f"Final URL (after redirects): {resp.url}")
     html = resp.text
     print(f"HTML length: {len(html)} chars")
 
-    if resp.status_code != 200:
-        print("Non-200 response, dumping first 1000 chars of body:")
-        print(html[:1000])
-        return
-
-    # JSON-LD structured data is common on classifieds/news sites for SEO
-    ld_json_blocks = re.findall(
-        r'<script[^>]+type="application/ld\+json"[^>]*>(.*?)</script>', html, re.DOTALL
-    )
-    print(f"\nFound {len(ld_json_blocks)} JSON-LD <script> block(s)")
-    for i, block in enumerate(ld_json_blocks[:5]):
-        try:
-            data = json.loads(block)
-            print(f"  block {i}: type={data.get('@type')}, keys={list(data.keys())[:10]}")
-        except json.JSONDecodeError:
-            print(f"  block {i}: failed to parse as JSON, first 200 chars: {block[:200]!r}")
-
-    # Check for common embedded-state patterns
-    print("\n=== Checking for embedded JS state ===")
-    for needle in ("__NEXT_DATA__", "__NUXT__", "window.__INITIAL_STATE__", "dataLayer", "__APOLLO_STATE__"):
-        count = html.count(needle)
-        if count:
-            print(f"  '{needle}' found ({count}x)")
-
-    # Does the page require JS? (look for common "enable javascript" messages)
-    lowered = html.lower()
-    for phrase in ("enable javascript", "zapněte javascript", "povolte javascript", "noscript"):
-        if phrase in lowered:
-            print(f"  Possible JS-requirement marker found: '{phrase}'")
-
-    # Look for rendered listing content directly
-    print("\n=== Checking for rendered listing card content ===")
-    price_matches = re.findall(r'[\d\s]{4,}\s*Kč', html)
-    print(f"'... Kč' price-looking strings found: {len(price_matches)}")
-    for p in price_matches[:5]:
-        print("   ", p.strip())
-
-    detail_links = sorted(set(re.findall(r'href="(https://reality\.idnes\.cz/detail/[^"]+)"', html)))
-    print(f"Detail listing links found: {len(detail_links)}")
-    for link in detail_links[:5]:
-        print("   ", link)
-
-    # robots.txt check, to know if a script should tread carefully / what's disallowed
-    print("\n=== Checking robots.txt ===")
-    try:
-        robots_resp = requests.get("https://reality.idnes.cz/robots.txt", headers=HEADERS, timeout=10)
-        print(f"robots.txt status: {robots_resp.status_code}")
-        print(robots_resp.text[:1000])
-    except Exception as exc:  # noqa: BLE001
-        print(f"robots.txt fetch failed: {exc}")
+    dump_datalayer(html)
+    price_context(html)
+    test_single_disposition()
 
 
 if __name__ == "__main__":
