@@ -86,16 +86,39 @@ def main():
     if not found_any:
         print("  No signatures found in the scanned bundles.")
 
-    # Fallback: check sitemap.xml for listing URL patterns
-    print("\n=== Checking sitemap.xml ===")
-    for sitemap_url in ("https://www.ulovdomov.cz/sitemap.xml", "https://www.ulovdomov.cz/robots.txt"):
-        try:
-            r = requests.get(sitemap_url, headers=HEADERS, timeout=15)
-            print(f"[{r.status_code}] {sitemap_url} (length {len(r.text)})")
-            print(r.text[:1000])
-            print("---")
-        except Exception as exc:  # noqa: BLE001
-            print(f"  [ERR fetching {sitemap_url}] {exc}")
+    # Follow up on sitemap-offers.xml: extract a sample listing URL and
+    # test whether the detail page itself is server-rendered (unlike the
+    # JS-only search page).
+    print("\n=== Fetching sitemap-offers.xml ===")
+    try:
+        r = requests.get("https://www.ulovdomov.cz/sitemap-offers.xml", headers=HEADERS, timeout=20)
+        print(f"[{r.status_code}] sitemap-offers.xml (length {len(r.text)})")
+        urls = re.findall(r"<loc>(.*?)</loc>", r.text)
+        print(f"Found {len(urls)} <loc> URL(s) in sitemap-offers.xml")
+        for u in urls[:10]:
+            print("   ", u)
+
+        if urls:
+            sample_url = urls[0]
+            print(f"\n=== Fetching sample listing detail page: {sample_url} ===")
+            detail_resp = requests.get(sample_url, headers=HEADERS, timeout=20)
+            print(f"Status: {detail_resp.status_code}")
+            detail_html = detail_resp.text
+            print(f"HTML length: {len(detail_html)} chars")
+
+            for phrase in ("nemáte zapnutý javascript", "noscript"):
+                if phrase in detail_html.lower():
+                    print(f"  JS-requirement marker found on detail page: '{phrase}'")
+
+            price_matches = re.findall(r'[\d\s]{3,}\s*Kč', detail_html)
+            print(f"  '... Kč' price-looking strings on detail page: {len(price_matches)}")
+            for p in price_matches[:5]:
+                print("     ", p.strip())
+
+            has_next_data = "__NEXT_DATA__" in detail_html
+            print(f"  __NEXT_DATA__ present on detail page: {has_next_data}")
+    except Exception as exc:  # noqa: BLE001
+        print(f"  [ERR] {exc}")
 
 
 if __name__ == "__main__":
