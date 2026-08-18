@@ -47,6 +47,14 @@
     "price": 40000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-krc-libusska/1618923596"
   },
+  "1625014348": {
+    "disposition": "4+1",
+    "id": "1625014348",
+    "location": "Praha - Háje",
+    "name": "Pronájem bytu 4+1 95 m²",
+    "price": 40000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-haje-kvetnoveho-vitezstvi/1625014348"
+  },
   "1673515084": {
     "disposition": "4+1",
     "id": "1673515084",
@@ -70,14 +78,6 @@
     "name": "Pronájem bytu 5+kk 170 m²",
     "price": 40000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/5+kk/praha-krc-libusska/2093596748"
-  },
-  "2151469132": {
-    "disposition": "4+1",
-    "id": "2151469132",
-    "location": "Praha - Nové Město",
-    "name": "Pronájem bytu 4+1 119 m²",
-    "price": 36990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-nove-mesto-pstrossova/2151469132"
   },
   "2167595084": {
     "disposition": "4+1",
@@ -158,14 +158,6 @@
     "name": "Pronájem bytu 4+1 72 m²",
     "price": 24000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-kobylisy-stibrova/3045052492"
-  },
-  "3423440972": {
-    "disposition": "4+1",
-    "id": "3423440972",
-    "location": "Praha - Libeň",
-    "name": "Pronájem bytu 4+1 134 m²",
-    "price": 40000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/praha-liben-primatorska/3423440972"
   },
   "3493380172": {
     "disposition": "4+1",
