@@ -23,6 +23,14 @@
     "price": 19500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-kratka/1276178508"
   },
+  "1286455372": {
+    "disposition": "2+1",
+    "id": "1286455372",
+    "location": "Praha - Vinohrady",
+    "name": "Pronájem bytu 2+1 72 m²",
+    "price": 19827.6,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-nitranska/1286455372"
+  },
   "1340653644": {
     "disposition": "2+1",
     "id": "1340653644",
@@ -87,14 +95,6 @@
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-horni-mecholupy-jaromerska/1735385164"
   },
-  "175165516": {
-    "disposition": "2+1",
-    "id": "175165516",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 2+1 56 m²",
-    "price": 21000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-jasminova/175165516"
-  },
   "1763229772": {
     "disposition": "2+1",
     "id": "1763229772",
@@ -118,6 +118,14 @@
     "name": "Pronájem bytu 2+1 47 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hlubocepy-steparska/1792790604"
+  },
+  "1809694796": {
+    "disposition": "2+1",
+    "id": "1809694796",
+    "location": "Praha - Hlubočepy",
+    "name": "Pronájem bytu 2+1 47 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hlubocepy-lamacova/1809694796"
   },
   "1871827020": {
     "disposition": "2+1",
@@ -356,7 +364,7 @@
     "id": "322879564",
     "location": "Praha - Malešice",
     "name": "Pronájem bytu 2+1 57 m²",
-    "price": 17300,
+    "price": 18300,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-malesice-pocernicka/322879564"
   },
   "3241922636": {
@@ -374,14 +382,6 @@
     "name": "Pronájem bytu 2+1 55 m²",
     "price": 21000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-malesice-pocernicka/3257815884"
-  },
-  "3307925580": {
-    "disposition": "2+1",
-    "id": "3307925580",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 2+1 51 m²",
-    "price": 21990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-jablonova/3307925580"
   },
   "344825932": {
     "disposition": "2+1",
