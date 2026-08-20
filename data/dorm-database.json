@@ -31,14 +31,6 @@
     "price": 19811.2,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-nitranska/1286455372"
   },
-  "1340653644": {
-    "disposition": "2+1",
-    "id": "1340653644",
-    "location": "Praha - Smíchov",
-    "name": "Pronájem bytu 2+1 70 m²",
-    "price": 21999,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-smichov-radlicka/1340653644"
-  },
   "1363447884": {
     "disposition": "2+1",
     "id": "1363447884",
@@ -326,6 +318,14 @@
     "name": "Pronájem bytu 3+kk 63 m²",
     "price": 21500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-branik-vrbova/3022368844"
+  },
+  "3059531852": {
+    "disposition": "3+kk",
+    "id": "3059531852",
+    "location": "Praha - Stodůlky",
+    "name": "Pronájem bytu 3+kk 59 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-stodulky-nova-kolonie/3059531852"
   },
   "3063517260": {
     "disposition": "2+1",
