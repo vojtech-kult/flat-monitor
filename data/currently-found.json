@@ -1,10 +1,18 @@
 [
   {
     "disposition": "2+1",
-    "id": "4072521804",
-    "location": "Praha - Strašnice",
-    "name": "Pronájem bytu 2+1 67 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-u-kombinatu/4072521804"
+    "id": "3501113420",
+    "location": "Praha - Kamýk",
+    "name": "Pronájem bytu 2+1 46 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-kamyk-ve-lhotce/3501113420"
+  },
+  {
+    "disposition": "3+kk",
+    "id": "1451016268",
+    "location": "Praha - Hlubočepy",
+    "name": "Pronájem bytu 3+kk 57 m²",
+    "price": 21500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-hlubocepy-geologicka/1451016268"
   }
 ]
