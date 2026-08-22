@@ -63,14 +63,6 @@
     "price": 17800,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-smichov-podbelohorska/1611980876"
   },
-  "1646510156": {
-    "disposition": "2+1",
-    "id": "1646510156",
-    "location": "Praha - Nové Město",
-    "name": "Pronájem bytu 2+1 70 m²",
-    "price": 19990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-nove-mesto-ostrovni/1646510156"
-  },
   "1678561356": {
     "disposition": "2+1",
     "id": "1678561356",
@@ -166,6 +158,14 @@
     "name": "Pronájem bytu 2+1 45 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hlubocepy-slavinskeho/2228605004"
+  },
+  "2238021708": {
+    "disposition": "2+1",
+    "id": "2238021708",
+    "location": "Praha - Smíchov",
+    "name": "Pronájem bytu 2+1 48 m²",
+    "price": 21500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-smichov-u-kralovske-louky/2238021708"
   },
   "2303184972": {
     "disposition": "2+1",
