@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "disposition": "2+1",
+    "id": "2703802444",
+    "location": "Praha - Jinonice",
+    "name": "Pronájem bytu 2+1 45 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-jinonice-soubezna-i/2703802444"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1825816652",
+    "location": "Praha - Vinohrady",
+    "name": "Pronájem bytu 2+1 59 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-caslavska/1825816652"
+  }
+]

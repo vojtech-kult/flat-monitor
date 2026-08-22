@@ -15,14 +15,6 @@
     "price": 19000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-zvonkova/1251397708"
   },
-  "1276178508": {
-    "disposition": "2+1",
-    "id": "1276178508",
-    "location": "Praha - Strašnice",
-    "name": "Pronájem bytu 2+1 45 m²",
-    "price": 19500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-kratka/1276178508"
-  },
   "1363447884": {
     "disposition": "2+1",
     "id": "1363447884",
@@ -127,6 +119,14 @@
     "price": 18000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hlubocepy-lamacova/1809694796"
   },
+  "1825816652": {
+    "disposition": "2+1",
+    "id": "1825816652",
+    "location": "Praha - Vinohrady",
+    "name": "Pronájem bytu 2+1 59 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-caslavska/1825816652"
+  },
   "1871827020": {
     "disposition": "2+1",
     "id": "1871827020",
@@ -174,14 +174,6 @@
     "name": "Pronájem bytu 2+1 45 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hlubocepy-slavinskeho/2228605004"
-  },
-  "2228928588": {
-    "disposition": "2+1",
-    "id": "2228928588",
-    "location": "Praha - Holešovice",
-    "name": "Pronájem bytu 2+1 57 m²",
-    "price": 17990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-bubenska/2228928588"
   },
   "2303184972": {
     "disposition": "2+1",
@@ -254,6 +246,14 @@
     "name": "Pronájem bytu 2+1 43 m²",
     "price": 18000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-jablonova/2673459276"
+  },
+  "2703802444": {
+    "disposition": "2+1",
+    "id": "2703802444",
+    "location": "Praha - Jinonice",
+    "name": "Pronájem bytu 2+1 45 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-jinonice-soubezna-i/2703802444"
   },
   "2720125004": {
     "disposition": "2+1",
@@ -390,14 +390,6 @@
     "name": "Pronájem bytu 2+1 56 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vrsovice-karpatska/3456876620"
-  },
-  "3457998924": {
-    "disposition": "2+1",
-    "id": "3457998924",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 2+1 58 m²",
-    "price": 20000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-struharovska/3457998924"
   },
   "3501113420": {
     "disposition": "2+1",
