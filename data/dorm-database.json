@@ -135,14 +135,6 @@
     "price": 17500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-strasinska/2032058444"
   },
-  "204456012": {
-    "disposition": "2+1",
-    "id": "204456012",
-    "location": "Praha - Strašnice",
-    "name": "Pronájem bytu 2+1 38 m²",
-    "price": 18500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-v-olsinach/204456012"
-  },
   "2151202892": {
     "disposition": "2+1",
     "id": "2151202892",
@@ -150,6 +142,14 @@
     "name": "Pronájem bytu 2+1 42 m²",
     "price": 19000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-haje-plickova/2151202892"
+  },
+  "2213658700": {
+    "disposition": "3+kk",
+    "id": "2213658700",
+    "location": "Praha - Ruzyně",
+    "name": "Pronájem bytu 3+kk 65 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-ruzyne-drnovska/2213658700"
   },
   "2228605004": {
     "disposition": "2+1",
