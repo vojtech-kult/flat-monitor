@@ -7,6 +7,14 @@
     "price": 19900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-jasminova/1099923532"
   },
+  "1146142796": {
+    "disposition": "2+1",
+    "id": "1146142796",
+    "location": "Praha - Malá Strana",
+    "name": "Pronájem bytu 2+1 49 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-mala-strana-mostecka/1146142796"
+  },
   "1251397708": {
     "disposition": "2+1",
     "id": "1251397708",
@@ -255,6 +263,14 @@
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-jinonice-soubezna-i/2703802444"
   },
+  "2705375308": {
+    "disposition": "2+1",
+    "id": "2705375308",
+    "location": "Praha - Hloubětín",
+    "name": "Pronájem bytu 2+1 53 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hloubetin-podebradska/2705375308"
+  },
   "2752630860": {
     "disposition": "3+kk",
     "id": "2752630860",
@@ -399,6 +415,14 @@
     "price": 19500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-kbely-svijanska/3527639116"
   },
+  "3714105420": {
+    "disposition": "2+1",
+    "id": "3714105420",
+    "location": "Praha - Nusle",
+    "name": "Pronájem bytu 2+1 55 m²",
+    "price": 13500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-nusle-na-zamecke/3714105420"
+  },
   "3715809356": {
     "disposition": "2+1",
     "id": "3715809356",
@@ -436,7 +460,7 @@
     "id": "4064731212",
     "location": "Praha - Praha 10",
     "name": "Pronájem bytu 2+1 56 m²",
-    "price": 20000,
+    "price": 19000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-praha-10-nad-primaskou/4064731212"
   },
   "4072521804": {
