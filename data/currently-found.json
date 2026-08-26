@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "disposition": "2+1",
+    "id": "1950859340",
+    "location": "Praha - Michle",
+    "name": "Pronájem bytu 2+1 50 m²",
+    "price": 18400,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-michle-na-dedinach/1950859340"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1985462348",
+    "location": "Praha - Dolní Chabry",
+    "name": "Pronájem bytu 2+1 58 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-dolni-chabry-/1985462348"
+  },
+  {
+    "disposition": "2+1",
+    "id": "2840051788",
+    "location": "Praha - Veleslavín",
+    "name": "Pronájem bytu 2+1 54 m²",
+    "price": 21490,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-veleslavin-na-petrinach/2840051788"
+  },
+  {
+    "disposition": "3+kk",
+    "id": "3005726796",
+    "location": "Praha - Žižkov",
+    "name": "Pronájem bytu 3+kk 50 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-zizkov-blahnikova/3005726796"
+  }
+]

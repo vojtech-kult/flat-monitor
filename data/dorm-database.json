@@ -143,6 +143,22 @@
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-caslavska/1825816652"
   },
+  "1950859340": {
+    "disposition": "2+1",
+    "id": "1950859340",
+    "location": "Praha - Michle",
+    "name": "Pronájem bytu 2+1 50 m²",
+    "price": 18400,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-michle-na-dedinach/1950859340"
+  },
+  "1985462348": {
+    "disposition": "2+1",
+    "id": "1985462348",
+    "location": "Praha - Dolní Chabry",
+    "name": "Pronájem bytu 2+1 58 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-dolni-chabry-/1985462348"
+  },
   "1988878412": {
     "disposition": "2+1",
     "id": "1988878412",
@@ -158,14 +174,6 @@
     "name": "Pronájem bytu 2+1 53 m²",
     "price": 17500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-strasinska/2032058444"
-  },
-  "2151202892": {
-    "disposition": "2+1",
-    "id": "2151202892",
-    "location": "Praha - Háje",
-    "name": "Pronájem bytu 2+1 42 m²",
-    "price": 19000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-haje-plickova/2151202892"
   },
   "2228605004": {
     "disposition": "2+1",
@@ -287,6 +295,14 @@
     "price": 19000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-liben-turnovska/2765938764"
   },
+  "2840051788": {
+    "disposition": "2+1",
+    "id": "2840051788",
+    "location": "Praha - Veleslavín",
+    "name": "Pronájem bytu 2+1 54 m²",
+    "price": 21490,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-veleslavin-na-petrinach/2840051788"
+  },
   "2872488012": {
     "disposition": "2+1",
     "id": "2872488012",
@@ -310,6 +326,14 @@
     "name": "Pronájem bytu 2+1 56 m²",
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-choceradska/2986524748"
+  },
+  "3005726796": {
+    "disposition": "3+kk",
+    "id": "3005726796",
+    "location": "Praha - Žižkov",
+    "name": "Pronájem bytu 3+kk 50 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-zizkov-blahnikova/3005726796"
   },
   "3014443084": {
     "disposition": "2+1",
@@ -526,14 +550,6 @@
     "name": "Pronájem bytu 2+1 51 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-hostynska/881578060"
-  },
-  "888062028": {
-    "disposition": "2+1",
-    "id": "888062028",
-    "location": "Praha - Žižkov",
-    "name": "Pronájem bytu 2+1 70 m²",
-    "price": 21000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-malesicka/888062028"
   },
   "897503308": {
     "disposition": "2+1",
