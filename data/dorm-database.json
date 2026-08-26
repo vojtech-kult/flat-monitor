@@ -95,6 +95,14 @@
     "price": 20600,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-cernokostelecka/1678561356"
   },
+  "1732235340": {
+    "disposition": "3+kk",
+    "id": "1732235340",
+    "location": "Praha - Čakovice",
+    "name": "Pronájem bytu 3+kk 63 m²",
+    "price": 21990,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-cakovice-blachutova/1732235340"
+  },
   "1735385164": {
     "disposition": "2+1",
     "id": "1735385164",
@@ -206,14 +214,6 @@
     "name": "Pronájem bytu 3+kk 65 m²",
     "price": 21990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-modrany-vazovova/2343485516"
-  },
-  "2393755724": {
-    "disposition": "3+kk",
-    "id": "2393755724",
-    "location": "Praha - Žižkov",
-    "name": "Pronájem bytu 3+kk 59 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-zizkov-habrova/2393755724"
   },
   "2396053580": {
     "disposition": "2+1",
@@ -367,14 +367,6 @@
     "price": 21000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vrsovice-u-slavie/3226452044"
   },
-  "322879564": {
-    "disposition": "2+1",
-    "id": "322879564",
-    "location": "Praha - Malešice",
-    "name": "Pronájem bytu 2+1 57 m²",
-    "price": 18300,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-malesice-pocernicka/322879564"
-  },
   "3241922636": {
     "disposition": "2+1",
     "id": "3241922636",
@@ -478,14 +470,6 @@
     "name": "Pronájem bytu 2+1 39 m²",
     "price": 21400,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-michle-bitovska/4185432140"
-  },
-  "4259237964": {
-    "disposition": "2+1",
-    "id": "4259237964",
-    "location": "Praha - Hlubočepy",
-    "name": "Pronájem bytu 2+1 46 m²",
-    "price": 16000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hlubocepy-lamacova/4259237964"
   },
   "573104204": {
     "disposition": "2+1",
