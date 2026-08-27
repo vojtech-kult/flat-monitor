@@ -111,14 +111,6 @@
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-horni-mecholupy-jaromerska/1735385164"
   },
-  "1783877708": {
-    "disposition": "2+1",
-    "id": "1783877708",
-    "location": "Praha - Stodůlky",
-    "name": "Pronájem bytu 2+1 70 m²",
-    "price": 20000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stodulky-zivcovych/1783877708"
-  },
   "1792790604": {
     "disposition": "2+1",
     "id": "1792790604",
@@ -447,14 +439,6 @@
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-bohnice-cimicka/573104204"
   },
-  "69386316": {
-    "disposition": "2+1",
-    "id": "69386316",
-    "location": "Praha - Vršovice",
-    "name": "Pronájem bytu 2+1 58 m²",
-    "price": 19000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vrsovice-tadzicka/69386316"
-  },
   "714600524": {
     "disposition": "2+1",
     "id": "714600524",
@@ -494,5 +478,13 @@
     "name": "Pronájem bytu 2+1 53 m²",
     "price": 19990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-kamyk-liskova/897503308"
+  },
+  "95608908": {
+    "disposition": "2+1",
+    "id": "95608908",
+    "location": "Praha - Michle",
+    "name": "Pronájem bytu 2+1 56 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-michle-pelhrimovska/95608908"
   }
 }
