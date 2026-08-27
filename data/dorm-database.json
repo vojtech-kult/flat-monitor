@@ -175,14 +175,6 @@
     "price": 17990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-bubenska/2228928588"
   },
-  "2230501452": {
-    "disposition": "2+1",
-    "id": "2230501452",
-    "location": "Praha - Břevnov",
-    "name": "Pronájem bytu 2+1 53 m²",
-    "price": 19500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-brevnov-volavkova/2230501452"
-  },
   "2303184972": {
     "disposition": "2+1",
     "id": "2303184972",
@@ -287,14 +279,6 @@
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-luzicka/2872488012"
   },
-  "297713740": {
-    "disposition": "2+1",
-    "id": "297713740",
-    "location": "Praha - Černý Most",
-    "name": "Pronájem bytu 2+1 48 m²",
-    "price": 19000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-cerny-most-bryksova/297713740"
-  },
   "2986524748": {
     "disposition": "2+1",
     "id": "2986524748",
@@ -326,14 +310,6 @@
     "name": "Pronájem bytu 3+kk 63 m²",
     "price": 21500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-branik-vrbova/3022368844"
-  },
-  "3059531852": {
-    "disposition": "3+kk",
-    "id": "3059531852",
-    "location": "Praha - Stodůlky",
-    "name": "Pronájem bytu 3+kk 59 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-stodulky-nova-kolonie/3059531852"
   },
   "3063517260": {
     "disposition": "2+1",
@@ -382,6 +358,14 @@
     "name": "Pronájem bytu 2+1 68 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-/3241922636"
+  },
+  "3257815884": {
+    "disposition": "2+1",
+    "id": "3257815884",
+    "location": "Praha - Malešice",
+    "name": "Pronájem bytu 2+1 55 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-malesice-pocernicka/3257815884"
   },
   "344825932": {
     "disposition": "2+1",
@@ -446,6 +430,14 @@
     "name": "Pronájem bytu 3+kk 42 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-strasnice-pretlucka/4171022412"
+  },
+  "4185432140": {
+    "disposition": "2+1",
+    "id": "4185432140",
+    "location": "Praha - Michle",
+    "name": "Pronájem bytu 2+1 39 m²",
+    "price": 21400,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-michle-bitovska/4185432140"
   },
   "573104204": {
     "disposition": "2+1",
