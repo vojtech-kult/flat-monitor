@@ -135,14 +135,6 @@
     "price": 18000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hlubocepy-lamacova/1809694796"
   },
-  "1825816652": {
-    "disposition": "2+1",
-    "id": "1825816652",
-    "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 2+1 59 m²",
-    "price": 20000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-caslavska/1825816652"
-  },
   "1950859340": {
     "disposition": "2+1",
     "id": "1950859340",
@@ -228,7 +220,7 @@
     "id": "2524635212",
     "location": "Praha - Holešovice",
     "name": "Pronájem bytu 2+1 52 m²",
-    "price": 19990,
+    "price": 18990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-v-haji/2524635212"
   },
   "2565656652": {
@@ -367,6 +359,14 @@
     "price": 20900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-malesice-janderova/3159859276"
   },
+  "3166158924": {
+    "disposition": "2+1",
+    "id": "3166158924",
+    "location": "Praha - Krč",
+    "name": "Pronájem bytu 2+1 48 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-za-dvorem/3166158924"
+  },
   "3226452044": {
     "disposition": "2+1",
     "id": "3226452044",
@@ -382,14 +382,6 @@
     "name": "Pronájem bytu 2+1 68 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-/3241922636"
-  },
-  "3257815884": {
-    "disposition": "2+1",
-    "id": "3257815884",
-    "location": "Praha - Malešice",
-    "name": "Pronájem bytu 2+1 55 m²",
-    "price": 21000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-malesice-pocernicka/3257815884"
   },
   "344825932": {
     "disposition": "2+1",
@@ -431,14 +423,6 @@
     "price": 21000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-modrany-k-otocce/3763511372"
   },
-  "3953115212": {
-    "disposition": "2+1",
-    "id": "3953115212",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 2+1 56 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-jasminova/3953115212"
-  },
   "4064731212": {
     "disposition": "2+1",
     "id": "4064731212",
@@ -463,14 +447,6 @@
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-strasnice-pretlucka/4171022412"
   },
-  "4185432140": {
-    "disposition": "2+1",
-    "id": "4185432140",
-    "location": "Praha - Michle",
-    "name": "Pronájem bytu 2+1 39 m²",
-    "price": 21400,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-michle-bitovska/4185432140"
-  },
   "573104204": {
     "disposition": "2+1",
     "id": "573104204",
@@ -494,14 +470,6 @@
     "name": "Pronájem bytu 2+1 60 m²",
     "price": 21999,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-lhotka-cimelicka/714600524"
-  },
-  "820502604": {
-    "disposition": "3+kk",
-    "id": "820502604",
-    "location": "Praha - Modřany",
-    "name": "Pronájem bytu 3+kk 63 m²",
-    "price": 19000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-modrany-hasova/820502604"
   },
   "832356428": {
     "disposition": "2+1",
