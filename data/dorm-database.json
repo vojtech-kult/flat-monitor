@@ -15,6 +15,14 @@
     "price": 21000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-mala-strana-mostecka/1146142796"
   },
+  "1195753548": {
+    "disposition": "2+1",
+    "id": "1195753548",
+    "location": "Praha - Břevnov",
+    "name": "Pronájem bytu 2+1 50 m²",
+    "price": 21490,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-brevnov-mladeze/1195753548"
+  },
   "1251397708": {
     "disposition": "2+1",
     "id": "1251397708",
@@ -71,14 +79,6 @@
     "price": 17800,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-smichov-podbelohorska/1611980876"
   },
-  "1641463884": {
-    "disposition": "2+1",
-    "id": "1641463884",
-    "location": "Praha - Libeň",
-    "name": "Pronájem bytu 2+1 62 m²",
-    "price": 18000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-liben-na-rokytce/1641463884"
-  },
   "1647366220": {
     "disposition": "2+1",
     "id": "1647366220",
@@ -127,14 +127,6 @@
     "price": 18000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hlubocepy-lamacova/1809694796"
   },
-  "1950859340": {
-    "disposition": "2+1",
-    "id": "1950859340",
-    "location": "Praha - Michle",
-    "name": "Pronájem bytu 2+1 50 m²",
-    "price": 18400,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-michle-na-dedinach/1950859340"
-  },
   "1985462348": {
     "disposition": "2+1",
     "id": "1985462348",
@@ -142,14 +134,6 @@
     "name": "Pronájem bytu 2+1 58 m²",
     "price": 18000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-dolni-chabry-/1985462348"
-  },
-  "1988878412": {
-    "disposition": "2+1",
-    "id": "1988878412",
-    "location": "Praha - Kobylisy",
-    "name": "Pronájem bytu 2+1 49 m²",
-    "price": 19500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-kobylisy-formankova/1988878412"
   },
   "2032058444": {
     "disposition": "2+1",
@@ -166,6 +150,14 @@
     "name": "Pronájem bytu 2+1 57 m²",
     "price": 17990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-bubenska/2228928588"
+  },
+  "2241249356": {
+    "disposition": "2+1",
+    "id": "2241249356",
+    "location": "Praha - Michle",
+    "name": "Pronájem bytu 2+1 39 m²",
+    "price": 20900,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-michle-bitovska/2241249356"
   },
   "2303184972": {
     "disposition": "2+1",
@@ -270,14 +262,6 @@
     "name": "Pronájem bytu 2+1 56 m²",
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-choceradska/2986524748"
-  },
-  "3005726796": {
-    "disposition": "3+kk",
-    "id": "3005726796",
-    "location": "Praha - Žižkov",
-    "name": "Pronájem bytu 3+kk 50 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-zizkov-blahnikova/3005726796"
   },
   "3014443084": {
     "disposition": "2+1",
