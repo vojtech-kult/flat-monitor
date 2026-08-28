@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "disposition": "2+1",
+    "id": "1487323212",
+    "location": "Praha - Stodůlky",
+    "name": "Pronájem bytu 2+1 70 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stodulky-zivcovych/1487323212"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1641463884",
+    "location": "Praha - Libeň",
+    "name": "Pronájem bytu 2+1 62 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-liben-na-rokytce/1641463884"
+  },
+  {
+    "disposition": "2+1",
+    "id": "3651584076",
+    "location": "Praha - Krč",
+    "name": "Pronájem bytu 2+1 52 m²",
+    "price": 19500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-cercanska/3651584076"
+  }
+]

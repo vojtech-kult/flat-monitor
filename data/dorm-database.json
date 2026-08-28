@@ -15,14 +15,6 @@
     "price": 21000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-mala-strana-mostecka/1146142796"
   },
-  "1156628556": {
-    "disposition": "2+1",
-    "id": "1156628556",
-    "location": "Praha - Podolí",
-    "name": "Pronájem bytu 2+1 49 m²",
-    "price": 17000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-podoli-na-hrebenech-ii/1156628556"
-  },
   "1251397708": {
     "disposition": "2+1",
     "id": "1251397708",
@@ -38,6 +30,14 @@
     "name": "Pronájem bytu 2+1 43 m²",
     "price": 18600,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stresovice-na-hubalce/1363447884"
+  },
+  "1487323212": {
+    "disposition": "2+1",
+    "id": "1487323212",
+    "location": "Praha - Stodůlky",
+    "name": "Pronájem bytu 2+1 70 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stodulky-zivcovych/1487323212"
   },
   "1549258828": {
     "disposition": "2+1",
@@ -70,6 +70,14 @@
     "name": "Pronájem bytu 2+1 50 m²",
     "price": 17800,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-smichov-podbelohorska/1611980876"
+  },
+  "1641463884": {
+    "disposition": "2+1",
+    "id": "1641463884",
+    "location": "Praha - Libeň",
+    "name": "Pronájem bytu 2+1 62 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-liben-na-rokytce/1641463884"
   },
   "1647366220": {
     "disposition": "2+1",
@@ -182,14 +190,6 @@
     "name": "Pronájem bytu 2+1 55 m²",
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-jasminova/2396053580"
-  },
-  "2440089676": {
-    "disposition": "2+1",
-    "id": "2440089676",
-    "location": "Praha - Michle",
-    "name": "Pronájem bytu 2+1 64 m²",
-    "price": 21500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-michle-jemnicka/2440089676"
   },
   "2524635212": {
     "disposition": "2+1",
@@ -366,6 +366,14 @@
     "name": "Pronájem bytu 2+1 54 m²",
     "price": 19500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-kbely-svijanska/3527639116"
+  },
+  "3651584076": {
+    "disposition": "2+1",
+    "id": "3651584076",
+    "location": "Praha - Krč",
+    "name": "Pronájem bytu 2+1 52 m²",
+    "price": 19500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-cercanska/3651584076"
   },
   "3715809356": {
     "disposition": "2+1",
