@@ -39,14 +39,6 @@
     "price": 18600,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stresovice-na-hubalce/1363447884"
   },
-  "1451016268": {
-    "disposition": "3+kk",
-    "id": "1451016268",
-    "location": "Praha - Hlubočepy",
-    "name": "Pronájem bytu 3+kk 57 m²",
-    "price": 21500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-hlubocepy-geologicka/1451016268"
-  },
   "1549258828": {
     "disposition": "2+1",
     "id": "1549258828",
@@ -484,7 +476,7 @@
     "id": "95608908",
     "location": "Praha - Michle",
     "name": "Pronájem bytu 2+1 56 m²",
-    "price": 22000,
+    "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-michle-pelhrimovska/95608908"
   }
 }
