@@ -1,26 +1,18 @@
 [
   {
     "disposition": "2+1",
-    "id": "2871377996",
-    "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 2+1 68 m²",
-    "price": 9300,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-kourimska/2871377996"
+    "id": "3892691020",
+    "location": "Praha - Záběhlice",
+    "name": "Pronájem bytu 2+1 52 m²",
+    "price": 19000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-sasankova/3892691020"
   },
   {
     "disposition": "2+1",
-    "id": "3537817676",
-    "location": "Praha - Kbely",
-    "name": "Pronájem bytu 2+1 58 m²",
-    "price": 20000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-kbely-katusicka/3537817676"
-  },
-  {
-    "disposition": "2+1",
-    "id": "2284175436",
-    "location": "Praha - Žižkov",
-    "name": "Pronájem bytu 2+1 59 m²",
-    "price": 9200,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-malesicka/2284175436"
+    "id": "3660955724",
+    "location": "Praha - Smíchov",
+    "name": "Pronájem bytu 2+1 69 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-smichov-frani-sramka/3660955724"
   }
 ]
