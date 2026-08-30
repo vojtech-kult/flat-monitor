@@ -1,10 +1,18 @@
 [
   {
-    "disposition": "3+kk",
-    "id": "1060356172",
-    "location": "Praha - Nové Město",
-    "name": "Pronájem bytu 3+kk 70 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-nove-mesto-karlovo-namesti/1060356172"
+    "disposition": "2+1",
+    "id": "573104204",
+    "location": "Praha - Bohnice",
+    "name": "Pronájem bytu 2+1 44 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-bohnice-cimicka/573104204"
+  },
+  {
+    "disposition": "2+1",
+    "id": "3802513484",
+    "location": "Praha - Záběhlice",
+    "name": "Pronájem bytu 2+1 56 m²",
+    "price": 19900,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-jahodova/3802513484"
   }
 ]
