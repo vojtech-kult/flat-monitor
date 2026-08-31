@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "disposition": "2+1",
+    "id": "447922252",
+    "location": "Praha - Strašnice",
+    "name": "Pronájem bytu 2+1 53 m²",
+    "price": 16500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-/447922252"
+  },
+  {
+    "disposition": "2+1",
+    "id": "290766924",
+    "location": "Praha - Vinohrady",
+    "name": "Pronájem bytu 2+1 69 m²",
+    "price": 19000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-pisecka/290766924"
+  },
+  {
+    "disposition": "2+1",
+    "id": "3055861836",
+    "location": "Praha - Krč",
+    "name": "Pronájem bytu 2+1 56 m²",
+    "price": 19999,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-matechova/3055861836"
+  },
+  {
+    "disposition": "2+1",
+    "id": "2080686156",
+    "location": "Praha - Hloubětín",
+    "name": "Pronájem bytu 2+1 53 m²",
+    "price": 21500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hloubetin-konzumni/2080686156"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1647366220",
+    "location": "Praha - Nusle",
+    "name": "Pronájem bytu 2+1 39 m²",
+    "price": 17500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-nusle-na-dolinach/1647366220"
+  },
+  {
+    "disposition": "2+1",
+    "id": "3931422796",
+    "location": "Praha - Bubeneč",
+    "name": "Pronájem bytu 2+1 46 m²",
+    "price": 21900,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-bubenec-narodni-obrany/3931422796"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1251397708",
+    "location": "Praha - Záběhlice",
+    "name": "Pronájem bytu 2+1 55 m²",
+    "price": 19000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-zvonkova/1251397708"
+  }
+]
