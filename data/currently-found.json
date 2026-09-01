@@ -1,10 +1,98 @@
 [
   {
     "disposition": "2+1",
-    "id": "641413196",
-    "location": "Praha - Vršovice",
-    "name": "Pronájem bytu 2+1 60 m²",
+    "id": "3083546700",
+    "location": "Praha - Podolí",
+    "name": "Pronájem bytu 2+1 49 m²",
+    "price": 17000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-podoli-na-hrebenech-ii/3083546700"
+  },
+  {
+    "disposition": "2+1",
+    "id": "155635788",
+    "location": "Praha - Záběhlice",
+    "name": "Pronájem bytu 2+1 55 m²",
     "price": 20000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vrsovice-tadzicka/641413196"
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-severni-i/155635788"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1251397708",
+    "location": "Praha - Záběhlice",
+    "name": "Pronájem bytu 2+1 55 m²",
+    "price": 19000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-zvonkova/1251397708"
+  },
+  {
+    "disposition": "2+1",
+    "id": "2871377996",
+    "location": "Praha - Vinohrady",
+    "name": "Pronájem bytu 2+1 69 m²",
+    "price": 9300,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-kourimska/2871377996"
+  },
+  {
+    "disposition": "2+1",
+    "id": "3660955724",
+    "location": "Praha - Smíchov",
+    "name": "Pronájem bytu 2+1 69 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-smichov-frani-sramka/3660955724"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1455108172",
+    "location": "Praha - Libeň",
+    "name": "Pronájem bytu 2+1 51 m²",
+    "price": 17000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-liben-sokolovska/1455108172"
+  },
+  {
+    "disposition": "2+1",
+    "id": "2284175436",
+    "location": "Praha - Žižkov",
+    "name": "Pronájem bytu 2+1 59 m²",
+    "price": 9200,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-malesicka/2284175436"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1183526988",
+    "location": "Praha - Strašnice",
+    "name": "Pronájem bytu 2+1 68 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-jevanska/1183526988"
+  },
+  {
+    "disposition": "3+kk",
+    "id": "3725181004",
+    "location": "Praha - Řepy",
+    "name": "Pronájem bytu 3+kk 74 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-repy-na-chobote/3725181004"
+  },
+  {
+    "disposition": "2+1",
+    "id": "339423308",
+    "location": "Praha - Záběhlice",
+    "name": "Pronájem bytu 2+1 59 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-preslickova/339423308"
+  },
+  {
+    "disposition": "2+1",
+    "id": "3055861836",
+    "location": "Praha - Krč",
+    "name": "Pronájem bytu 2+1 56 m²",
+    "price": 19999,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-matechova/3055861836"
+  },
+  {
+    "disposition": "2+1",
+    "id": "3651584076",
+    "location": "Praha - Krč",
+    "name": "Pronájem bytu 2+1 52 m²",
+    "price": 19500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-cercanska/3651584076"
   }
 ]
