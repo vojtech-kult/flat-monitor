@@ -63,6 +63,14 @@
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-severni-i/155635788"
   },
+  "1597648972": {
+    "disposition": "2+1",
+    "id": "1597648972",
+    "location": "Praha - Vršovice",
+    "name": "Pronájem bytu 2+1 80 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vrsovice-pripotocni/1597648972"
+  },
   "1608773708": {
     "disposition": "2+1",
     "id": "1608773708",
@@ -70,6 +78,22 @@
     "name": "Pronájem bytu 2+1 55 m²",
     "price": 19900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-struharovska/1608773708"
+  },
+  "1611980876": {
+    "disposition": "2+1",
+    "id": "1611980876",
+    "location": "Praha - Smíchov",
+    "name": "Pronájem bytu 2+1 50 m²",
+    "price": 17800,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-smichov-podbelohorska/1611980876"
+  },
+  "1647366220": {
+    "disposition": "2+1",
+    "id": "1647366220",
+    "location": "Praha - Nusle",
+    "name": "Pronájem bytu 2+1 39 m²",
+    "price": 17500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-nusle-na-dolinach/1647366220"
   },
   "1656078412": {
     "disposition": "2+1",
@@ -335,14 +359,6 @@
     "price": 19500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-cercanska/3651584076"
   },
-  "3658793036": {
-    "disposition": "3+kk",
-    "id": "3658793036",
-    "location": "Praha - Nusle",
-    "name": "Pronájem bytu 3+kk 75 m²",
-    "price": 21000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-nusle-sdruzeni/3658793036"
-  },
   "3660955724": {
     "disposition": "2+1",
     "id": "3660955724",
@@ -414,6 +430,14 @@
     "name": "Pronájem bytu 3+kk 42 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-strasnice-pretlucka/4171022412"
+  },
+  "4273324108": {
+    "disposition": "2+1",
+    "id": "4273324108",
+    "location": "Praha - Strašnice",
+    "name": "Pronájem bytu 2+1 54 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-u-krbu/4273324108"
   },
   "447922252": {
     "disposition": "2+1",
