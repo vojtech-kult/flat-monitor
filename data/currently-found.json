@@ -1,34 +1,18 @@
 [
   {
-    "disposition": "3+kk",
-    "id": "1060356172",
-    "location": "Praha - Nové Město",
-    "name": "Pronájem bytu 3+kk 70 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-nove-mesto-karlovo-namesti/1060356172"
-  },
-  {
     "disposition": "2+1",
-    "id": "3972673612",
-    "location": "Praha - Smíchov",
-    "name": "Pronájem bytu 2+1 46 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-smichov-nadrazni/3972673612"
-  },
-  {
-    "disposition": "2+1",
-    "id": "1590308940",
-    "location": "Praha - Břevnov",
+    "id": "3134861388",
+    "location": "Praha - Veleslavín",
     "name": "Pronájem bytu 2+1 53 m²",
-    "price": 19000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-brevnov-patockova/1590308940"
+    "price": 21900,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-veleslavin-krenova/3134861388"
   },
   {
-    "disposition": "3+kk",
-    "id": "1763496012",
-    "location": "Praha - Hrdlořezy",
-    "name": "Pronájem bytu 3+kk 75 m²",
-    "price": 20500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-hrdlorezy-ceskobrodska/1763496012"
+    "disposition": "2+1",
+    "id": "3257815884",
+    "location": "Praha - Malešice",
+    "name": "Pronájem bytu 2+1 55 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-malesice-pocernicka/3257815884"
   }
 ]
