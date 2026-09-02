@@ -1,10 +1,82 @@
 [
   {
     "disposition": "2+1",
-    "id": "1281962060",
-    "location": "Praha - Holešovice",
-    "name": "Pronájem bytu 2+1 52 m²",
-    "price": 19900,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-poupetova/1281962060"
+    "id": "456732748",
+    "location": "Praha - Kamýk",
+    "name": "Pronájem bytu 2+1 48 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-kamyk-imrychova/456732748"
+  },
+  {
+    "disposition": "2+1",
+    "id": "2030645324",
+    "location": "Praha - Staré Město",
+    "name": "Pronájem bytu 2+1 83 m²",
+    "price": 19344,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stare-mesto-melantrichova/2030645324"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1641463884",
+    "location": "Praha - Libeň",
+    "name": "Pronájem bytu 2+1 62 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-liben-na-rokytce/1641463884"
+  },
+  {
+    "disposition": "2+1",
+    "id": "952709196",
+    "location": "Praha - Radotín",
+    "name": "Pronájem bytu 2+1 53 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-radotin-sidliste/952709196"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1032241228",
+    "location": "Praha - Malá Strana",
+    "name": "Pronájem bytu 2+1 83 m²",
+    "price": 19843,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-mala-strana-karmelitska/1032241228"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1460219980",
+    "location": "Praha - Strašnice",
+    "name": "Pronájem bytu 2+1 46 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-v-olsinach/1460219980"
+  },
+  {
+    "disposition": "2+1",
+    "id": "3456708684",
+    "location": "Praha - Nové Město",
+    "name": "Pronájem bytu 2+1 69 m²",
+    "price": 16094,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-nove-mesto-truhlarska/3456708684"
+  },
+  {
+    "disposition": "2+1",
+    "id": "1225338956",
+    "location": "Praha - Staré Město",
+    "name": "Pronájem bytu 2+1 85 m²",
+    "price": 20143,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stare-mesto-melantrichova/1225338956"
+  },
+  {
+    "disposition": "2+1",
+    "id": "2567516236",
+    "location": "Praha - Nové Město",
+    "name": "Pronájem bytu 2+1 69 m²",
+    "price": 16018,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-nove-mesto-mikulandska/2567516236"
+  },
+  {
+    "disposition": "2+1",
+    "id": "4262015052",
+    "location": "Praha - Vinohrady",
+    "name": "Pronájem bytu 2+1 74 m²",
+    "price": 17618,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-slezska/4262015052"
   }
 ]
