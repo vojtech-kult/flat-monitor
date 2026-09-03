@@ -1,42 +1,26 @@
 [
   {
     "disposition": "3+kk",
-    "id": "1829560396",
-    "location": "Praha - Horní Měcholupy",
-    "name": "Pronájem bytu 3+kk 47 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-horni-mecholupy-stadicka/1829560396"
+    "id": "1763496012",
+    "location": "Praha - Hrdlořezy",
+    "name": "Pronájem bytu 3+kk 75 m²",
+    "price": 20500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-hrdlorezy-ceskobrodska/1763496012"
   },
   {
     "disposition": "2+1",
-    "id": "982069324",
-    "location": "Praha - Strašnice",
-    "name": "Pronájem bytu 2+1 50 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-michelangelova/982069324"
+    "id": "1018703948",
+    "location": "Praha - Veleslavín",
+    "name": "Pronájem bytu 2+1 56 m²",
+    "price": 19500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-veleslavin-cilova/1018703948"
   },
   {
     "disposition": "2+1",
-    "id": "1592275020",
-    "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 2+1 57 m²",
-    "price": 21990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-boleslavska/1592275020"
-  },
-  {
-    "disposition": "2+1",
-    "id": "475541580",
-    "location": "Praha - Strašnice",
-    "name": "Pronájem bytu 2+1 71 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-pod-altanem/475541580"
-  },
-  {
-    "disposition": "2+1",
-    "id": "2354589772",
-    "location": "Praha - Žižkov",
-    "name": "Pronájem bytu 2+1 49 m²",
-    "price": 21000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-buchovcova/2354589772"
+    "id": "696791116",
+    "location": "Praha - Záběhlice",
+    "name": "Pronájem bytu 2+1 56 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-kapradova/696791116"
   }
 ]
