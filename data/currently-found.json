@@ -1,10 +1,26 @@
 [
   {
     "disposition": "2+1",
-    "id": "195637324",
-    "location": "Praha - Košíře",
-    "name": "Pronájem bytu 2+1 67 m²",
-    "price": 20000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-kosire-hubnerove/195637324"
+    "id": "1031417932",
+    "location": "Praha - Praha 10",
+    "name": "Pronájem bytu 2+1 53 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-praha-10-/1031417932"
+  },
+  {
+    "disposition": "2+1",
+    "id": "443035724",
+    "location": "Praha - Žižkov",
+    "name": "Pronájem bytu 2+1 65 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-ostromecska/443035724"
+  },
+  {
+    "disposition": "3+kk",
+    "id": "2558013516",
+    "location": "Praha - Chodov",
+    "name": "Pronájem bytu 3+kk 62 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-chodov-markusova/2558013516"
   }
 ]
