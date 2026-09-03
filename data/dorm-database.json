@@ -71,14 +71,6 @@
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stodulky-zivcovych/1487323212"
   },
-  "1549258828": {
-    "disposition": "2+1",
-    "id": "1549258828",
-    "location": "Praha - Zbraslav",
-    "name": "Pronájem bytu 2+1 40 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zbraslav-k-pristavisti/1549258828"
-  },
   "155635788": {
     "disposition": "2+1",
     "id": "155635788",
@@ -95,6 +87,14 @@
     "price": 19000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-brevnov-patockova/1590308940"
   },
+  "1592275020": {
+    "disposition": "2+1",
+    "id": "1592275020",
+    "location": "Praha - Vinohrady",
+    "name": "Pronájem bytu 2+1 57 m²",
+    "price": 21990,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-boleslavska/1592275020"
+  },
   "1597648972": {
     "disposition": "2+1",
     "id": "1597648972",
@@ -102,14 +102,6 @@
     "name": "Pronájem bytu 2+1 80 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vrsovice-pripotocni/1597648972"
-  },
-  "1608773708": {
-    "disposition": "2+1",
-    "id": "1608773708",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 2+1 55 m²",
-    "price": 19900,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-struharovska/1608773708"
   },
   "1611980876": {
     "disposition": "2+1",
@@ -167,6 +159,14 @@
     "price": 18000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hlubocepy-lamacova/1809694796"
   },
+  "1829560396": {
+    "disposition": "3+kk",
+    "id": "1829560396",
+    "location": "Praha - Horní Měcholupy",
+    "name": "Pronájem bytu 3+kk 47 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-horni-mecholupy-stadicka/1829560396"
+  },
   "195637324": {
     "disposition": "2+1",
     "id": "195637324",
@@ -223,12 +223,20 @@
     "price": 21990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-modrany-vazovova/2343485516"
   },
+  "2354589772": {
+    "disposition": "2+1",
+    "id": "2354589772",
+    "location": "Praha - Žižkov",
+    "name": "Pronájem bytu 2+1 49 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-buchovcova/2354589772"
+  },
   "2524635212": {
     "disposition": "2+1",
     "id": "2524635212",
     "location": "Praha - Holešovice",
     "name": "Pronájem bytu 2+1 52 m²",
-    "price": 18990,
+    "price": 17990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-v-haji/2524635212"
   },
   "2558013516": {
@@ -423,14 +431,6 @@
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-repy-na-chobote/3725181004"
   },
-  "3763511372": {
-    "disposition": "2+1",
-    "id": "3763511372",
-    "location": "Praha - Modřany",
-    "name": "Pronájem bytu 2+1 53 m²",
-    "price": 21000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-modrany-k-otocce/3763511372"
-  },
   "3892691020": {
     "disposition": "2+1",
     "id": "3892691020",
@@ -511,6 +511,14 @@
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-kamyk-imrychova/456732748"
   },
+  "475541580": {
+    "disposition": "2+1",
+    "id": "475541580",
+    "location": "Praha - Strašnice",
+    "name": "Pronájem bytu 2+1 71 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-pod-altanem/475541580"
+  },
   "623231052": {
     "disposition": "2+1",
     "id": "623231052",
@@ -558,5 +566,13 @@
     "name": "Pronájem bytu 2+1 53 m²",
     "price": 21000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-radotin-sidliste/952709196"
+  },
+  "982069324": {
+    "disposition": "2+1",
+    "id": "982069324",
+    "location": "Praha - Strašnice",
+    "name": "Pronájem bytu 2+1 50 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-michelangelova/982069324"
   }
 }
