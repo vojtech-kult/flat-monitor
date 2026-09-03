@@ -1,26 +1,18 @@
 [
   {
-    "disposition": "3+kk",
-    "id": "1763496012",
-    "location": "Praha - Hrdlořezy",
-    "name": "Pronájem bytu 3+kk 75 m²",
-    "price": 20500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-hrdlorezy-ceskobrodska/1763496012"
+    "disposition": "2+1",
+    "id": "208613452",
+    "location": "Praha - Uhříněves",
+    "name": "Pronájem bytu 2+1 48 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-uhrineves-na-vysocine/208613452"
   },
   {
     "disposition": "2+1",
-    "id": "1018703948",
-    "location": "Praha - Veleslavín",
-    "name": "Pronájem bytu 2+1 56 m²",
-    "price": 19500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-veleslavin-cilova/1018703948"
-  },
-  {
-    "disposition": "2+1",
-    "id": "696791116",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 2+1 56 m²",
-    "price": 20000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-kapradova/696791116"
+    "id": "1550790732",
+    "location": "Praha - Krč",
+    "name": "Pronájem bytu 2+1 44 m²",
+    "price": 17000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-u-novych-domu-i/1550790732"
   }
 ]
