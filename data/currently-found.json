@@ -1,34 +1,10 @@
 [
   {
     "disposition": "2+1",
-    "id": "1205809228",
-    "location": "Praha - Nové Město",
-    "name": "Pronájem bytu 2+1 74 m²",
-    "price": 18000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-nove-mesto-trojanova/1205809228"
-  },
-  {
-    "disposition": "2+1",
-    "id": "1611980876",
-    "location": "Praha - Smíchov",
-    "name": "Pronájem bytu 2+1 50 m²",
-    "price": 17800,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-smichov-podbelohorska/1611980876"
-  },
-  {
-    "disposition": "2+1",
-    "id": "2011115596",
-    "location": "Praha - Nové Město",
-    "name": "Pronájem bytu 2+1 81 m²",
-    "price": 19900,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-nove-mesto-karlovo-namesti/2011115596"
-  },
-  {
-    "disposition": "2+1",
-    "id": "836710476",
-    "location": "Praha - Nové Město",
-    "name": "Pronájem bytu 2+1 87 m²",
-    "price": 21200,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-nove-mesto-na-morani/836710476"
+    "id": "3836686412",
+    "location": "Praha - Žižkov",
+    "name": "Pronájem bytu 2+1 55 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-na-vrcholu/3836686412"
   }
 ]

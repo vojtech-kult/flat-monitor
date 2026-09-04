@@ -111,14 +111,6 @@
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-severni-i/155635788"
   },
-  "1592275020": {
-    "disposition": "2+1",
-    "id": "1592275020",
-    "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 2+1 57 m²",
-    "price": 21990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-boleslavska/1592275020"
-  },
   "1597648972": {
     "disposition": "2+1",
     "id": "1597648972",
@@ -462,6 +454,14 @@
     "name": "Pronájem bytu 3+kk 74 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-repy-na-chobote/3725181004"
+  },
+  "3836686412": {
+    "disposition": "2+1",
+    "id": "3836686412",
+    "location": "Praha - Žižkov",
+    "name": "Pronájem bytu 2+1 55 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-na-vrcholu/3836686412"
   },
   "3892691020": {
     "disposition": "2+1",
