@@ -71,6 +71,14 @@
     "price": 19900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-poupetova/1281962060"
   },
+  "1462710348": {
+    "disposition": "2+1",
+    "id": "1462710348",
+    "location": "Praha - Strašnice",
+    "name": "Pronájem bytu 2+1 57 m²",
+    "price": 19900,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-prubezna/1462710348"
+  },
   "1487323212": {
     "disposition": "2+1",
     "id": "1487323212",
@@ -95,14 +103,6 @@
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-severni-i/155635788"
   },
-  "1590308940": {
-    "disposition": "2+1",
-    "id": "1590308940",
-    "location": "Praha - Břevnov",
-    "name": "Pronájem bytu 2+1 53 m²",
-    "price": 19000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-brevnov-patockova/1590308940"
-  },
   "1592275020": {
     "disposition": "2+1",
     "id": "1592275020",
@@ -118,14 +118,6 @@
     "name": "Pronájem bytu 2+1 80 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vrsovice-pripotocni/1597648972"
-  },
-  "1611980876": {
-    "disposition": "2+1",
-    "id": "1611980876",
-    "location": "Praha - Smíchov",
-    "name": "Pronájem bytu 2+1 50 m²",
-    "price": 17800,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-smichov-podbelohorska/1611980876"
   },
   "1641463884": {
     "disposition": "2+1",
@@ -399,6 +391,14 @@
     "price": 21000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-malesice-pocernicka/3257815884"
   },
+  "3341758540": {
+    "disposition": "2+1",
+    "id": "3341758540",
+    "location": "Praha - Holešovice",
+    "name": "Pronájem bytu 2+1 88 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-hermanova/3341758540"
+  },
   "344825932": {
     "disposition": "2+1",
     "id": "344825932",
@@ -534,14 +534,6 @@
     "name": "Pronájem bytu 2+1 71 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-pod-altanem/475541580"
-  },
-  "623231052": {
-    "disposition": "2+1",
-    "id": "623231052",
-    "location": "Praha - Žižkov",
-    "name": "Pronájem bytu 2+1 55 m²",
-    "price": 20000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-biskupcova/623231052"
   },
   "641413196": {
     "disposition": "2+1",
