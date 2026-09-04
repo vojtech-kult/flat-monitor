@@ -79,14 +79,6 @@
     "price": 19900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-poupetova/1281962060"
   },
-  "1462710348": {
-    "disposition": "2+1",
-    "id": "1462710348",
-    "location": "Praha - Strašnice",
-    "name": "Pronájem bytu 2+1 57 m²",
-    "price": 19900,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-prubezna/1462710348"
-  },
   "1487323212": {
     "disposition": "2+1",
     "id": "1487323212",
@@ -182,6 +174,14 @@
     "name": "Pronájem bytu 3+kk 47 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-horni-mecholupy-stadicka/1829560396"
+  },
+  "1868443724": {
+    "disposition": "3+kk",
+    "id": "1868443724",
+    "location": "Praha - Strašnice",
+    "name": "Pronájem bytu 3+kk 44 m²",
+    "price": 17000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-strasnice-u-novych-vil/1868443724"
   },
   "195637324": {
     "disposition": "2+1",
@@ -318,14 +318,6 @@
     "name": "Pronájem bytu 2+1 53 m²",
     "price": 18000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hloubetin-podebradska/2705375308"
-  },
-  "2752630860": {
-    "disposition": "3+kk",
-    "id": "2752630860",
-    "location": "Praha - Radotín",
-    "name": "Pronájem bytu 3+kk 72 m²",
-    "price": 21000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-radotin-karlicka/2752630860"
   },
   "2840051788": {
     "disposition": "2+1",
