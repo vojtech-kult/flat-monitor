@@ -63,6 +63,14 @@
     "price": 20143,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stare-mesto-melantrichova/1225338956"
   },
+  "1229795404": {
+    "disposition": "2+1",
+    "id": "1229795404",
+    "location": "Praha - Karlín",
+    "name": "Pronájem bytu 2+1 50 m²",
+    "price": 21999,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-karlin-vitkova/1229795404"
+  },
   "1251397708": {
     "disposition": "2+1",
     "id": "1251397708",
@@ -94,14 +102,6 @@
     "name": "Pronájem bytu 2+1 70 m²",
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stodulky-zivcovych/1487323212"
-  },
-  "1550790732": {
-    "disposition": "2+1",
-    "id": "1550790732",
-    "location": "Praha - Krč",
-    "name": "Pronájem bytu 2+1 44 m²",
-    "price": 17000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-u-novych-domu-i/1550790732"
   },
   "155635788": {
     "disposition": "2+1",
@@ -334,6 +334,14 @@
     "name": "Pronájem bytu 2+1 53 m²",
     "price": 18000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hloubetin-podebradska/2705375308"
+  },
+  "2752630860": {
+    "disposition": "3+kk",
+    "id": "2752630860",
+    "location": "Praha - Radotín",
+    "name": "Pronájem bytu 3+kk 72 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-radotin-karlicka/2752630860"
   },
   "2840051788": {
     "disposition": "2+1",

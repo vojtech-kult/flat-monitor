@@ -1,10 +1,18 @@
 [
   {
+    "disposition": "3+kk",
+    "id": "2752630860",
+    "location": "Praha - Radotín",
+    "name": "Pronájem bytu 3+kk 72 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-radotin-karlicka/2752630860"
+  },
+  {
     "disposition": "2+1",
-    "id": "3983355980",
-    "location": "Praha - Kamýk",
-    "name": "Pronájem bytu 2+1 60 m²",
-    "price": 21990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-kamyk-krhanicka/3983355980"
+    "id": "1229795404",
+    "location": "Praha - Karlín",
+    "name": "Pronájem bytu 2+1 50 m²",
+    "price": 21999,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-karlin-vitkova/1229795404"
   }
 ]
