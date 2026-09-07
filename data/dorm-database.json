@@ -159,14 +159,6 @@
     "price": 20600,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-cernokostelecka/1678561356"
   },
-  "1735385164": {
-    "disposition": "2+1",
-    "id": "1735385164",
-    "location": "Praha - Horní Měcholupy",
-    "name": "Pronájem bytu 2+1 70 m²",
-    "price": 20000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-horni-mecholupy-jaromerska/1735385164"
-  },
   "1763496012": {
     "disposition": "3+kk",
     "id": "1763496012",
@@ -350,6 +342,14 @@
     "name": "Pronájem bytu 2+1 43 m²",
     "price": 18000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-jablonova/2673459276"
+  },
+  "2687250508": {
+    "disposition": "2+1",
+    "id": "2687250508",
+    "location": "Praha - Vysočany",
+    "name": "Pronájem bytu 2+1 56 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vysocany-novovysocanska/2687250508"
   },
   "2703802444": {
     "disposition": "2+1",
