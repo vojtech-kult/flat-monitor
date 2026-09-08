@@ -76,7 +76,7 @@
     "id": "1229795404",
     "location": "Praha - Karlín",
     "name": "Pronájem bytu 2+1 50 m²",
-    "price": 21999,
+    "price": 21500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-karlin-vitkova/1229795404"
   },
   "1260269644": {
@@ -646,6 +646,14 @@
     "name": "Pronájem bytu 2+1 53 m²",
     "price": 16500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-/447922252"
+  },
+  "448999500": {
+    "disposition": "3+kk",
+    "id": "448999500",
+    "location": "Praha - Chodov",
+    "name": "Pronájem bytu 3+kk 66 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-chodov-jazlovicka/448999500"
   },
   "456732748": {
     "disposition": "2+1",
