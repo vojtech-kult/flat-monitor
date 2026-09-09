@@ -95,6 +95,14 @@
     "price": 19900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-poupetova/1281962060"
   },
+  "1337077836": {
+    "disposition": "2+1",
+    "id": "1337077836",
+    "location": "Praha - Břevnov",
+    "name": "Pronájem bytu 2+1 55 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-brevnov-anastazova/1337077836"
+  },
   "1409429580": {
     "disposition": "2+1",
     "id": "1409429580",
@@ -102,22 +110,6 @@
     "name": "Pronájem bytu 2+1 55 m²",
     "price": 19000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vokovice-/1409429580"
-  },
-  "1487323212": {
-    "disposition": "2+1",
-    "id": "1487323212",
-    "location": "Praha - Stodůlky",
-    "name": "Pronájem bytu 2+1 70 m²",
-    "price": 20000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stodulky-zivcovych/1487323212"
-  },
-  "1523396684": {
-    "disposition": "3+kk",
-    "id": "1523396684",
-    "location": "Praha - Chodov",
-    "name": "Pronájem bytu 3+kk 80 m²",
-    "price": 21990,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-chodov-na-sadce/1523396684"
   },
   "1550790732": {
     "disposition": "2+1",
@@ -142,14 +134,6 @@
     "name": "Pronájem bytu 2+1 46 m²",
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-brevnov-na-vetrniku/1564291148"
-  },
-  "1597648972": {
-    "disposition": "2+1",
-    "id": "1597648972",
-    "location": "Praha - Vršovice",
-    "name": "Pronájem bytu 2+1 80 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vrsovice-pripotocni/1597648972"
   },
   "1611980876": {
     "disposition": "2+1",
@@ -590,6 +574,14 @@
     "name": "Pronájem bytu 2+1 67 m²",
     "price": 21500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-u-kombinatu/4072521804"
+  },
+  "4135792716": {
+    "disposition": "2+1",
+    "id": "4135792716",
+    "location": "Praha - Žižkov",
+    "name": "Pronájem bytu 2+1 68 m²",
+    "price": 19500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-chvalova/4135792716"
   },
   "4171022412": {
     "disposition": "3+kk",
