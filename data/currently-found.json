@@ -1,10 +1,18 @@
 [
   {
-    "disposition": "3+kk",
-    "id": "448999500",
-    "location": "Praha - Chodov",
-    "name": "Pronájem bytu 3+kk 66 m²",
+    "disposition": "2+1",
+    "id": "3647090764",
+    "location": "Praha - Žižkov",
+    "name": "Pronájem bytu 2+1 40 m²",
+    "price": 18000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-viklefova/3647090764"
+  },
+  {
+    "disposition": "2+1",
+    "id": "4254281804",
+    "location": "Praha - Žižkov",
+    "name": "Pronájem bytu 2+1 54 m²",
     "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-chodov-jazlovicka/448999500"
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-na-vapence/4254281804"
   }
 ]
