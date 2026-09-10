@@ -47,6 +47,14 @@
     "price": 19900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-jasminova/1099923532"
   },
+  "1130377292": {
+    "disposition": "3+kk",
+    "id": "1130377292",
+    "location": "Praha - Hradčany",
+    "name": "Pronájem bytu 3+kk 63 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-hradcany-milady-horakove/1130377292"
+  },
   "1195753548": {
     "disposition": "2+1",
     "id": "1195753548",
@@ -278,14 +286,6 @@
     "name": "Pronájem bytu 2+1 52 m²",
     "price": 19900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-letnany-sumperska/219951180"
-  },
-  "2229088332": {
-    "disposition": "2+1",
-    "id": "2229088332",
-    "location": "Praha - Vinohrady",
-    "name": "Pronájem bytu 2+1 44 m²",
-    "price": 19500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-lucemburska/2229088332"
   },
   "2284175436": {
     "disposition": "2+1",
@@ -639,13 +639,13 @@
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-chodov-jazlovicka/448999500"
   },
-  "469905484": {
+  "574632012": {
     "disposition": "2+1",
-    "id": "469905484",
-    "location": "Praha - Libeň",
-    "name": "Pronájem bytu 2+1 50 m²",
-    "price": 19000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-liben-sokolovska/469905484"
+    "id": "574632012",
+    "location": "Praha - Holešovice",
+    "name": "Pronájem bytu 2+1 46 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-u-uranie/574632012"
   },
   "641413196": {
     "disposition": "2+1",
