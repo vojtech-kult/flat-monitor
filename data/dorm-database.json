@@ -319,6 +319,14 @@
     "price": 21990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-jeseniova/2379034700"
   },
+  "247541836": {
+    "disposition": "2+1",
+    "id": "247541836",
+    "location": "Praha - Hloubětín",
+    "name": "Pronájem bytu 2+1 50 m²",
+    "price": 21500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-hloubetin-podebradska/247541836"
+  },
   "2524635212": {
     "disposition": "2+1",
     "id": "2524635212",
@@ -551,14 +559,6 @@
     "price": 21990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-kamyk-krhanicka/3983355980"
   },
-  "4064731212": {
-    "disposition": "2+1",
-    "id": "4064731212",
-    "location": "Praha - Praha 10",
-    "name": "Pronájem bytu 2+1 56 m²",
-    "price": 20000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-praha-10-nad-primaskou/4064731212"
-  },
   "4072521804": {
     "disposition": "2+1",
     "id": "4072521804",
@@ -574,6 +574,14 @@
     "name": "Pronájem bytu 3+kk 42 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-strasnice-pretlucka/4171022412"
+  },
+  "4223742028": {
+    "disposition": "2+1",
+    "id": "4223742028",
+    "location": "Praha",
+    "name": "Pronájem bytu 2+1 47 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-praha-na-trebesine/4223742028"
   },
   "4254281804": {
     "disposition": "2+1",
