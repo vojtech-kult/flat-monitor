@@ -415,6 +415,14 @@
     "price": 9300,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vinohrady-kourimska/2871377996"
   },
+  "2970693708": {
+    "disposition": "2+1",
+    "id": "2970693708",
+    "location": "Praha - Stodůlky",
+    "name": "Pronájem bytu 2+1 70 m²",
+    "price": 19000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-stodulky-safrankova/2970693708"
+  },
   "3022368844": {
     "disposition": "3+kk",
     "id": "3022368844",
@@ -478,22 +486,6 @@
     "name": "Pronájem bytu 2+1 55 m²",
     "price": 21000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-malesice-pocernicka/3257815884"
-  },
-  "3341758540": {
-    "disposition": "2+1",
-    "id": "3341758540",
-    "location": "Praha - Holešovice",
-    "name": "Pronájem bytu 2+1 88 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-hermanova/3341758540"
-  },
-  "344825932": {
-    "disposition": "2+1",
-    "id": "344825932",
-    "location": "Praha - Záběhlice",
-    "name": "Pronájem bytu 2+1 55 m²",
-    "price": 19490,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-zelivecka/344825932"
   },
   "3456708684": {
     "disposition": "2+1",
@@ -574,14 +566,6 @@
     "name": "Pronájem bytu 2+1 67 m²",
     "price": 21500,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-strasnice-u-kombinatu/4072521804"
-  },
-  "4135792716": {
-    "disposition": "2+1",
-    "id": "4135792716",
-    "location": "Praha - Žižkov",
-    "name": "Pronájem bytu 2+1 68 m²",
-    "price": 19500,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-chvalova/4135792716"
   },
   "4171022412": {
     "disposition": "3+kk",
@@ -678,6 +662,14 @@
     "name": "Pronájem bytu 2+1 56 m²",
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-kapradova/696791116"
+  },
+  "740372556": {
+    "disposition": "3+kk",
+    "id": "740372556",
+    "location": "Praha - Vokovice",
+    "name": "Pronájem bytu 3+kk 73 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-vokovice-tobrucka/740372556"
   },
   "836710476": {
     "disposition": "2+1",
