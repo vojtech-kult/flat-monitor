@@ -47,14 +47,6 @@
     "price": 19900,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zabehlice-jasminova/1099923532"
   },
-  "1130377292": {
-    "disposition": "3+kk",
-    "id": "1130377292",
-    "location": "Praha - Hradčany",
-    "name": "Pronájem bytu 3+kk 63 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-hradcany-milady-horakove/1130377292"
-  },
   "1195753548": {
     "disposition": "2+1",
     "id": "1195753548",
@@ -230,6 +222,14 @@
     "name": "Pronájem bytu 3+kk 44 m²",
     "price": 17000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-strasnice-u-novych-vil/1868443724"
+  },
+  "1927295052": {
+    "disposition": "2+1",
+    "id": "1927295052",
+    "location": "Praha - Suchdol",
+    "name": "Pronájem bytu 2+1 58 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-suchdol-staroceska/1927295052"
   },
   "195637324": {
     "disposition": "2+1",
@@ -559,6 +559,14 @@
     "price": 21000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-na-vrcholu/3836686412"
   },
+  "3874500684": {
+    "disposition": "2+1",
+    "id": "3874500684",
+    "location": "Praha - Břevnov",
+    "name": "Pronájem bytu 2+1 50 m²",
+    "price": 16500,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-brevnov-slikova/3874500684"
+  },
   "3892691020": {
     "disposition": "2+1",
     "id": "3892691020",
@@ -598,14 +606,6 @@
     "name": "Pronájem bytu 3+kk 42 m²",
     "price": 22000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-strasnice-pretlucka/4171022412"
-  },
-  "4223742028": {
-    "disposition": "2+1",
-    "id": "4223742028",
-    "location": "Praha",
-    "name": "Pronájem bytu 2+1 47 m²",
-    "price": 22000,
-    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-praha-na-trebesine/4223742028"
   },
   "4254281804": {
     "disposition": "2+1",
@@ -670,6 +670,14 @@
     "name": "Pronájem bytu 2+1 46 m²",
     "price": 20000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-holesovice-u-uranie/574632012"
+  },
+  "602943564": {
+    "disposition": "2+1",
+    "id": "602943564",
+    "location": "Praha - Břevnov",
+    "name": "Pronájem bytu 2+1 65 m²",
+    "price": 19900,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-brevnov-slikova/602943564"
   },
   "641413196": {
     "disposition": "2+1",
