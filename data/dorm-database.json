@@ -295,6 +295,22 @@
     "price": 18000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-uhrineves-na-vysocine/208613452"
   },
+  "2102865996": {
+    "disposition": "2+1",
+    "id": "2102865996",
+    "location": "Praha - Vysočany",
+    "name": "Pronájem bytu 2+1 55 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-vysocany-na-brehu/2102865996"
+  },
+  "2185703500": {
+    "disposition": "2+1",
+    "id": "2185703500",
+    "location": "Praha - Krč",
+    "name": "Pronájem bytu 2+1 54 m²",
+    "price": 21000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-krc-olbrachtova/2185703500"
+  },
   "219951180": {
     "disposition": "2+1",
     "id": "219951180",
@@ -318,6 +334,14 @@
     "name": "Pronájem bytu 3+kk 65 m²",
     "price": 21990,
     "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-modrany-vazovova/2343485516"
+  },
+  "2354524236": {
+    "disposition": "2+1",
+    "id": "2354524236",
+    "location": "Praha - Žižkov",
+    "name": "Pronájem bytu 2+1 61 m²",
+    "price": 20000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-hartigova/2354524236"
   },
   "2354589772": {
     "disposition": "2+1",
