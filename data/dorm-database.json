@@ -1,4 +1,12 @@
 {
+  "1018638412": {
+    "disposition": "3+kk",
+    "id": "1018638412",
+    "location": "Praha",
+    "name": "Pronájem bytu 3+kk 44 m²",
+    "price": 22000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/3+kk/praha-praha-lucemburska/1018638412"
+  },
   "1018703948": {
     "disposition": "2+1",
     "id": "1018703948",
@@ -358,6 +366,14 @@
     "name": "Pronájem bytu 2+1 49 m²",
     "price": 21000,
     "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-zizkov-buchovcova/2354589772"
+  },
+  "2359767116": {
+    "disposition": "2+1",
+    "id": "2359767116",
+    "location": "Praha - Horní Počernice",
+    "name": "Pronájem bytu 2+1 62 m²",
+    "price": 17000,
+    "url": "https://www.sreality.cz/detail/pronajem/byt/2+1/praha-horni-pocernice-lipi/2359767116"
   },
   "2379034700": {
     "disposition": "2+1",
